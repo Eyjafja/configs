@@ -1,0 +1,7 @@
+2023/07/24-22:28:27.286 1a2c Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_www.dns-shop.ru_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/24-22:28:27.287 1a2c Recovering log #3
+2023/07/24-22:28:27.291 1a2c Reusing old log /home/Eyjafja/.config/thorium/Default/IndexedDB/https_www.dns-shop.ru_0.indexeddb.leveldb/000003.log 
+2023/07/24-22:29:07.025 1a2c Level-0 table #5: started
+2023/07/24-22:29:07.028 1a2c Level-0 table #5: 17665 bytes OK
+2023/07/24-22:29:07.031 1a2c Delete type=0 #3
+2023/07/24-22:29:07.032 1a2c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,20 @@
+2023/08/01-00:31:21.383 3 Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/08/01-00:31:21.421 3 Recovering log #1639
+2023/08/01-00:31:21.426 3 Reusing old log /home/Eyjafja/.config/thorium/Default/Local Storage/leveldb/001639.log 
+2023/08/01-00:34:14.333 5 Level-0 table #1643: started
+2023/08/01-00:34:14.342 5 Level-0 table #1643: 89861 bytes OK
+2023/08/01-00:34:14.349 5 Delete type=0 #1639
+2023/08/01-00:34:14.351 3 Compacting 4@0 + 2@1 files
+2023/08/01-00:34:14.450 3 Generated table #1644@0: 904 keys, 2165682 bytes
+2023/08/01-00:34:14.545 3 Generated table #1645@0: 632 keys, 2012824 bytes
+2023/08/01-00:34:14.545 3 Compacted 4@0 + 2@1 files => 4178506 bytes
+2023/08/01-00:34:14.556 3 compacted to: files[ 0 2 0 0 0 0 0 ]
+2023/08/01-00:34:14.576 3 Delete type=2 #1633
+2023/08/01-00:34:14.577 3 Delete type=2 #1634
+2023/08/01-00:34:14.577 3 Delete type=2 #1636
+2023/08/01-00:34:14.577 3 Delete type=2 #1638
+2023/08/01-00:34:14.577 3 Delete type=2 #1640
+2023/08/01-00:34:14.577 3 Delete type=2 #1643
+2023/08/01-00:34:18.107 5 Level-0 table #1647: started
+2023/08/01-00:34:18.113 5 Level-0 table #1647: 87100 bytes OK
+2023/08/01-00:34:18.119 5 Delete type=0 #1642

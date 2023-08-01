@@ -1,0 +1,8 @@
+require("options")
+require("plugins")
+require("mappings")
+require("neotree")
+require("treesitter")
+require("lsp")
+require("completion")
+require("catpuccin")

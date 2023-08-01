@@ -1,0 +1,5 @@
+import = ["/home/Eyjafja/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+[font.normal]
+family = "Jetbrains Mono Nerd Font"
+style = "Regular"

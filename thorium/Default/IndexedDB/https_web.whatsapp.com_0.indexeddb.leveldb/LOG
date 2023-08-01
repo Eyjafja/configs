@@ -1,0 +1,47 @@
+2023/07/24-21:58:58.791 cec Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/24-21:58:58.792 cec Recovering log #6
+2023/07/24-21:58:58.836 cec Reusing old log /home/Eyjafja/.config/thorium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000006.log 
+2023/07/24-21:58:58.882 cee Level-0 table #10: started
+2023/07/24-21:58:58.899 cee Level-0 table #10: 165383 bytes OK
+2023/07/24-21:58:58.903 cee Delete type=0 #6
+2023/07/24-21:58:58.903 cfc Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08.\x02\x01\x0e\x00W\x00A\x00A\x00D\x00V\x00S\x00e\x00c\x00r\x00e\x00t\x00K\x00e\x00y' @ 5211 : 1
+2023/07/24-21:58:58.903 cfc Compacting 1@0 + 1@1 files
+2023/07/24-21:58:58.920 cfc Generated table #11@0: 5584 keys, 100780 bytes
+2023/07/24-21:58:58.920 cfc Compacted 1@0 + 1@1 files => 100780 bytes
+2023/07/24-21:58:58.922 cfc compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/24-21:58:58.922 cfc Delete type=2 #10
+2023/07/24-21:58:58.923 cfc Manual compaction at level-0 from '\x00\x08.\x02\x01\x0e\x00W\x00A\x00A\x00D\x00V\x00S\x00e\x00c\x00r\x00e\x00t\x00K\x00e\x00y' @ 5211 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/24-21:58:58.926 cee Level-0 table #13: started
+2023/07/24-21:58:58.928 cee Level-0 table #13: 1507 bytes OK
+2023/07/24-21:58:58.930 cee Delete type=2 #7
+2023/07/24-21:58:58.930 cee Delete type=0 #9
+2023/07/24-21:58:58.931 cec Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x05\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 12306 : 0
+2023/07/24-21:58:58.931 cec Compacting 1@0 + 1@1 files
+2023/07/24-21:58:58.944 cec Generated table #14@0: 5508 keys, 99411 bytes
+2023/07/24-21:58:58.944 cec Compacted 1@0 + 1@1 files => 99411 bytes
+2023/07/24-21:58:58.953 cec compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/24-21:58:58.954 cec Delete type=2 #13
+2023/07/24-21:58:58.954 cec Manual compaction at level-0 from '\x00\x06\x05\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 12306 : 0 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/24-21:58:58.954 cee Level-0 table #16: started
+2023/07/24-21:58:58.956 cee Level-0 table #16: 510 bytes OK
+2023/07/24-21:58:58.959 cee Delete type=2 #11
+2023/07/24-21:58:58.959 cee Delete type=0 #12
+2023/07/24-21:58:58.959 cec Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 12335 : 0
+2023/07/24-21:58:58.959 cec Compacting 1@0 + 1@1 files
+2023/07/24-21:58:58.971 cec Generated table #17@0: 5483 keys, 98530 bytes
+2023/07/24-21:58:58.971 cec Compacted 1@0 + 1@1 files => 98530 bytes
+2023/07/24-21:58:58.975 cec compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/24-21:58:58.976 cec Delete type=2 #16
+2023/07/24-21:58:58.976 cec Manual compaction at level-0 from '\x00\x05\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 12335 : 0 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/24-21:58:59.014 cee Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/24-21:59:17.768 cee Level-0 table #19: started
+2023/07/24-21:59:17.773 cee Level-0 table #19: 51355 bytes OK
+2023/07/24-21:59:17.777 cee Delete type=2 #14
+2023/07/24-21:59:17.777 cee Delete type=0 #15
+2023/07/24-21:59:17.778 ceb Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 15604 : 1
+2023/07/24-21:59:17.778 ceb Compacting 1@0 + 1@1 files
+2023/07/24-21:59:17.788 ceb Generated table #20@0: 4408 keys, 42600 bytes
+2023/07/24-21:59:17.788 ceb Compacted 1@0 + 1@1 files => 42600 bytes
+2023/07/24-21:59:17.790 ceb compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/24-21:59:17.791 ceb Delete type=2 #19
+2023/07/24-21:59:17.791 ceb Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 15604 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)

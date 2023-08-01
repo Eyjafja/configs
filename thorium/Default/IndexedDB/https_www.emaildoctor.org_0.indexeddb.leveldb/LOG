@@ -1,0 +1,6 @@
+2023/07/23-13:40:00.791 d83 Creating DB /home/Eyjafja/.config/thorium/Default/IndexedDB/https_www.emaildoctor.org_0.indexeddb.leveldb since it was missing.
+2023/07/23-13:40:00.796 d83 Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_www.emaildoctor.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/23-13:41:00.040 d84 Level-0 table #5: started
+2023/07/23-13:41:00.042 d84 Level-0 table #5: 1545 bytes OK
+2023/07/23-13:41:00.044 d84 Delete type=0 #3
+2023/07/23-13:41:00.045 d84 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

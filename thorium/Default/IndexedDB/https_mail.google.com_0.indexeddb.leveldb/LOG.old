@@ -1,0 +1,12 @@
+2023/07/28-15:01:12.100 a68 Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/28-15:01:12.101 a68 Recovering log #4
+2023/07/28-15:01:12.133 a68 Reusing old log /home/Eyjafja/.config/thorium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2023/07/28-15:01:30.394 a69 Level-0 table #8: started
+2023/07/28-15:01:30.481 a69 Level-0 table #8: 1838490 bytes OK
+2023/07/28-15:01:30.486 a69 Delete type=0 #4
+2023/07/28-15:01:32.844 a68 Compacting 1@1 + 1@2 files
+2023/07/28-15:01:32.888 a68 Generated table #9@1: 171 keys, 318658 bytes
+2023/07/28-15:01:32.889 a68 Compacted 1@1 + 1@2 files => 318658 bytes
+2023/07/28-15:01:32.891 a68 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/28-15:01:32.892 a68 Delete type=2 #5
+2023/07/28-15:01:32.892 a68 Delete type=2 #8

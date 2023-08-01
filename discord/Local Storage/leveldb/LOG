@@ -1,0 +1,6 @@
+2023/07/27-20:04:27.763 5526 Reusing MANIFEST /home/Eyjafja/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/07/27-20:04:27.763 5526 Recovering log #4
+2023/07/27-20:04:27.764 5526 Reusing old log /home/Eyjafja/.config/discord/Local Storage/leveldb/000004.log 
+2023/07/27-20:06:30.422 5541 Level-0 table #8: started
+2023/07/27-20:06:30.457 5541 Level-0 table #8: 1771427 bytes OK
+2023/07/27-20:06:30.460 5541 Delete type=0 #4

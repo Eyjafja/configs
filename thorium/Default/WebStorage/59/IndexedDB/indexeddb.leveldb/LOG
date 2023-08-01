@@ -1,0 +1,6 @@
+2023/07/26-21:58:25.508 1cf2 Creating DB /home/Eyjafja/.config/thorium/Default/WebStorage/59/IndexedDB/indexeddb.leveldb since it was missing.
+2023/07/26-21:58:25.516 1cf2 Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/WebStorage/59/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/07/26-21:59:03.205 1cf2 Level-0 table #5: started
+2023/07/26-21:59:03.208 1cf2 Level-0 table #5: 9007 bytes OK
+2023/07/26-21:59:03.211 1cf2 Delete type=0 #3
+2023/07/26-21:59:03.211 1cf5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

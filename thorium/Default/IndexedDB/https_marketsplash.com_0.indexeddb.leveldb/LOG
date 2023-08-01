@@ -1,0 +1,6 @@
+2023/07/21-18:28:21.558 1467 Creating DB /home/Eyjafja/.config/thorium/Default/IndexedDB/https_marketsplash.com_0.indexeddb.leveldb since it was missing.
+2023/07/21-18:28:21.562 1467 Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_marketsplash.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/21-18:28:44.576 1468 Level-0 table #5: started
+2023/07/21-18:28:44.579 1468 Level-0 table #5: 1542 bytes OK
+2023/07/21-18:28:44.583 1468 Delete type=0 #3
+2023/07/21-18:28:44.584 1468 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

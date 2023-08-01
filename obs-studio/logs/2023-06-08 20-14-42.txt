@@ -1,0 +1,146 @@
+20:14:42.130: Platform: Wayland
+20:14:42.131: CPU Name: AMD A8-7410 APU with AMD Radeon R5 Graphics
+20:14:42.131: CPU Speed: 2195.575MHz
+20:14:42.131: Physical Cores: 4, Logical Cores: 4
+20:14:42.131: Physical Memory: 6905MB Total, 5078MB Free
+20:14:42.131: Kernel Version: Linux 6.3.4-artix1-1
+20:14:42.131: Distribution: "Artix Linux" Unknown
+20:14:42.131: Desktop Environment: sway ()
+20:14:42.131: Session Type: wayland
+20:14:42.138: Qt Version: 6.5.1 (runtime), 6.5.1 (compiled)
+20:14:42.138: Portable mode: false
+20:14:42.235: OBS 29.1.1-2 (linux)
+20:14:42.235: ---------------------------------
+20:14:42.236: ---------------------------------
+20:14:42.236: audio settings reset:
+20:14:42.236: 	samples per sec: 48000
+20:14:42.236: 	speakers:        2
+20:14:42.236: 	max buffering:   960 milliseconds
+20:14:42.236: 	buffering type:  dynamically increasing
+20:14:42.241: ---------------------------------
+20:14:42.241: Initializing OpenGL...
+20:14:42.241: Using EGL/Wayland
+20:14:42.393: Initialized EGL 1.5
+20:14:42.465: Loading up OpenGL on adapter AMD KABINI (, LLVM 15.0.7, DRM 2.50, 6.3.4-artix1-1)
+20:14:42.465: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 23.1.1, shading language 4.50
+20:14:42.565: ---------------------------------
+20:14:42.565: video settings reset:
+20:14:42.565: 	base resolution:   1366x768
+20:14:42.565: 	output resolution: 1092x614
+20:14:42.565: 	downscale filter:  Bicubic
+20:14:42.565: 	fps:               30/1
+20:14:42.565: 	format:            NV12
+20:14:42.565: 	YUV mode:          Rec. 709/Partial
+20:14:42.567: NV12 texture support not available
+20:14:42.567: P010 texture support not available
+20:14:42.572: Audio monitoring device:
+20:14:42.572: 	name: По умолчанию
+20:14:42.572: 	id: default
+20:14:42.573: ---------------------------------
+20:14:42.597: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:14:42.625: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:14:42.648: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:14:42.648: Failed to initialize module 'decklink.so'
+20:14:43.077: [pipewire] Available captures:
+20:14:43.077: [pipewire]     - Desktop capture
+20:14:43.155: v4l2loopback not installed, virtual camera disabled
+20:14:43.239: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+20:14:44.401: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+20:14:44.402: FFmpeg VAAPI H264 encoding not supported
+20:14:44.402: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+20:14:44.402: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+20:14:44.402: FFmpeg VAAPI HEVC encoding not supported
+20:14:44.645: ---------------------------------
+20:14:44.645:   Loaded Modules:
+20:14:44.645:     wlrobs.so
+20:14:44.645:     text-freetype2.so
+20:14:44.645:     rtmp-services.so
+20:14:44.645:     obs-x264.so
+20:14:44.645:     obs-vst.so
+20:14:44.645:     obs-transitions.so
+20:14:44.645:     obs-outputs.so
+20:14:44.645:     obs-libfdk.so
+20:14:44.645:     obs-filters.so
+20:14:44.645:     obs-ffmpeg.so
+20:14:44.645:     linux-v4l2.so
+20:14:44.645:     linux-pulseaudio.so
+20:14:44.645:     linux-pipewire.so
+20:14:44.645:     linux-jack.so
+20:14:44.645:     linux-capture.so
+20:14:44.645:     linux-alsa.so
+20:14:44.645:     image-source.so
+20:14:44.646:     frontend-tools.so
+20:14:44.646:     decklink-output-ui.so
+20:14:44.646:     decklink-captions.so
+20:14:44.646: ---------------------------------
+20:14:44.646: ==== Startup complete ===============================================
+20:14:44.712: All scene data cleared
+20:14:44.712: ------------------------------------------------
+20:14:44.841: Switched to scene 'Сцена'
+20:14:44.841: ------------------------------------------------
+20:14:44.841: Loaded scenes:
+20:14:44.841: - scene 'Сцена':
+20:14:44.841:     - source: 'Изображение' (image_source)
+20:14:44.841: ------------------------------------------------
+20:14:50.569: User added source 'Wayland output(dmabuf)' (wlrobs-dmabuf) to scene 'Сцена'
+20:14:58.859: ==== Shutting down ==================================================
+20:14:58.920: All scene data cleared
+20:14:58.920: ------------------------------------------------
+20:14:59.056: [Scripting] Total detached callbacks: 0
+20:14:59.057: Freeing OBS context data
+20:14:59.086: == Profiler Results =============================
+20:14:59.086: run_program_init: 2912.85 ms
+20:14:59.086:  ┣OBSApp::AppInit: 16.871 ms
+20:14:59.086:  ┃ ┗OBSApp::InitLocale: 4.855 ms
+20:14:59.086:  ┗OBSApp::OBSInit: 2809.91 ms
+20:14:59.086:    ┣obs_startup: 7.915 ms
+20:14:59.086:    ┗OBSBasic::OBSInit: 2704.35 ms
+20:14:59.086:      ┣OBSBasic::InitBasicConfig: 0.285 ms
+20:14:59.086:      ┣OBSBasic::ResetAudio: 0.736 ms
+20:14:59.087:      ┣OBSBasic::ResetVideo: 335.358 ms
+20:14:59.087:      ┣OBSBasic::InitOBSCallbacks: 0.016 ms
+20:14:59.087:      ┣OBSBasic::InitHotkeys: 0.104 ms
+20:14:59.087:      ┣obs_load_all_modules2: 2072.19 ms
+20:14:59.087:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+20:14:59.087:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+20:14:59.087:      ┃ ┣obs_init_module(decklink.so): 0.347 ms
+20:14:59.087:      ┃ ┣obs_init_module(frontend-tools.so): 244.604 ms
+20:14:59.087:      ┃ ┣obs_init_module(image-source.so): 0.019 ms
+20:14:59.087:      ┃ ┣obs_init_module(linux-alsa.so): 0.007 ms
+20:14:59.087:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+20:14:59.087:      ┃ ┣obs_init_module(linux-jack.so): 0.008 ms
+20:14:59.087:      ┃ ┣obs_init_module(linux-pipewire.so): 3.171 ms
+20:14:59.087:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.008 ms
+20:14:59.087:      ┃ ┣obs_init_module(linux-v4l2.so): 21.054 ms
+20:14:59.087:      ┃ ┣obs_init_module(obs-ffmpeg.so): 1168.08 ms
+20:14:59.087:      ┃ ┃ ┗nvenc_check: 3.471 ms
+20:14:59.087:      ┃ ┣obs_init_module(obs-filters.so): 0.089 ms
+20:14:59.087:      ┃ ┣obs_init_module(obs-libfdk.so): 0.006 ms
+20:14:59.087:      ┃ ┣obs_init_module(obs-outputs.so): 0.011 ms
+20:14:59.087:      ┃ ┣obs_init_module(obs-transitions.so): 0.032 ms
+20:14:59.087:      ┃ ┣obs_init_module(obs-vst.so): 0.015 ms
+20:14:59.087:      ┃ ┣obs_init_module(obs-x264.so): 0.006 ms
+20:14:59.087:      ┃ ┣obs_init_module(rtmp-services.so): 2.066 ms
+20:14:59.087:      ┃ ┣obs_init_module(text-freetype2.so): 0.034 ms
+20:14:59.087:      ┃ ┗obs_init_module(wlrobs.so): 0.034 ms
+20:14:59.087:      ┣OBSBasic::InitService: 4.779 ms
+20:14:59.087:      ┣OBSBasic::ResetOutputs: 0.531 ms
+20:14:59.087:      ┣OBSBasic::CreateHotkeys: 0.077 ms
+20:14:59.088:      ┣OBSBasic::InitPrimitives: 0.238 ms
+20:14:59.088:      ┗OBSBasic::Load: 192.924 ms
+20:14:59.088: obs_hotkey_thread(25 ms): min=0 ms, median=0.002 ms, max=0.056 ms, 99th percentile=0.003 ms, 100% below 25 ms
+20:14:59.088: audio_thread(Audio): min=0.026 ms, median=0.093 ms, max=15.403 ms, 99th percentile=12.935 ms
+20:14:59.088: obs_graphics_thread(33.3333 ms): min=0.171 ms, median=13.153 ms, max=112.574 ms, 99th percentile=33.929 ms, 95.112% below 33.333 ms
+20:14:59.088:  ┣tick_sources: min=0.001 ms, median=0.026 ms, max=98.951 ms, 99th percentile=0.585 ms
+20:14:59.088:  ┣output_frame: min=0.147 ms, median=11.648 ms, max=18.461 ms, 99th percentile=16.289 ms
+20:14:59.088:  ┃ ┗gs_context(video->graphics): min=0.146 ms, median=11.647 ms, max=18.46 ms, 99th percentile=16.289 ms
+20:14:59.088:  ┃   ┣render_video: min=0.014 ms, median=11.312 ms, max=17.486 ms, 99th percentile=15.927 ms
+20:14:59.088:  ┃   ┃ ┗render_main_texture: min=0.01 ms, median=11.297 ms, max=17.48 ms, 99th percentile=15.919 ms
+20:14:59.088:  ┃   ┗gs_flush: min=0.003 ms, median=0.235 ms, max=3.014 ms, 99th percentile=0.72 ms
+20:14:59.088:  ┗render_displays: min=0.009 ms, median=1.227 ms, max=18.77 ms, 99th percentile=17.902 ms
+20:14:59.088: =================================================
+20:14:59.088: == Profiler Time Between Calls ==================
+20:14:59.088: obs_hotkey_thread(25 ms): min=25.065 ms, median=25.13 ms, max=31.46 ms, 99.2537% within ±2% of 25 ms (0% lower, 0.746269% higher)
+20:14:59.088: obs_graphics_thread(33.3333 ms): min=16.978 ms, median=33.333 ms, max=112.606 ms, 96.9388% within ±2% of 33.333 ms (1.63265% lower, 1.42857% higher)
+20:14:59.088: =================================================
+20:14:59.106: Number of memory leaks: 2

@@ -1,0 +1,865 @@
+[2023-07-26 16:13:57.476] [3601] (engine.cpp:293): Created native Engine, time: Wed Jul 26 16:13:57 2023 MSK, logPath: /home/Eyjafja/.config/discord/0.0.28/modules/discord_voice/, logLevel: 2
+[2023-07-26 16:13:57.479] [3601] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-07-26 16:13:57.480] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:13:57.480] [3601] (audio_device_impl.cc:83): Create
+[2023-07-26 16:13:57.480] [3601] (audio_device_impl.cc:91): CreateForTest
+[2023-07-26 16:13:57.481] [3601] (audio_device_buffer.cc:64): AudioDeviceBuffer::ctor
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:129): AudioDeviceModuleImpl
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:133): CheckPlatform
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:144): current platform is Linux
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:163): CreatePlatformSpecificObjects
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:992): PlatformAudioLayer
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:299): PulseAudio support is enabled.
+[2023-07-26 16:13:57.481] [3601] (audio_mixer_manager_pulse_linux.cc:57): AudioMixerManagerLinuxPulse created
+[2023-07-26 16:13:57.481] [3601] (audio_device_pulse_linux.cc:81): AudioDeviceLinuxPulse created
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:304): Linux PulseAudio APIs will be utilized
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:345): AttachAudioBuffer
+[2023-07-26 16:13:57.481] [3601] (audio_device_buffer.cc:180): SetRecordingSampleRate(0)
+[2023-07-26 16:13:57.481] [3601] (audio_device_buffer.cc:186): SetPlayoutSampleRate(0)
+[2023-07-26 16:13:57.481] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(0)
+[2023-07-26 16:13:57.481] [3601] (audio_device_buffer.cc:206): SetPlayoutChannels(0)
+[2023-07-26 16:13:57.481] [3601] (audio_device_impl.cc:355): ActiveAudioLayer
+[2023-07-26 16:13:57.481] [3601] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-07-26 16:13:57.484] [3601] (audio_engine.cpp:491): Creating audio engine: standard
+[2023-07-26 16:13:57.484] [3601] (audio_device_impl.cc:365): Init
+[2023-07-26 16:13:57.507] [3601] (audio_coding.cpp:147): Using software Opus decoder
+[2023-07-26 16:13:57.507] [3601] (audio_coding.cpp:164): Using software Opus encoder
+[2023-07-26 16:13:57.507] [3601] (audio_device_impl.cc:896): RegisterAudioCallback
+[2023-07-26 16:13:57.507] [3601] (audio_device_buffer.cc:81): RegisterAudioCallback
+[2023-07-26 16:13:57.507] [3601] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-07-26 16:13:57.507] [3601] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-07-26 16:13:57.507] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-07-26 16:13:57.507] [3601] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2023-07-26 16:13:57.508] [3601] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-07-26 16:13:57.508] [3601] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2023-07-26 16:13:57.509] [3601] (audio_device_impl.cc:574): output: 1
+[2023-07-26 16:13:57.509] [3601] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-07-26 16:13:57.509] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-07-26 16:13:57.509] [3601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-07-26 16:13:57.509] [3601] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-07-26 16:13:57.509] [3601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-07-26 16:13:57.509] [3601] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-07-26 16:13:57.509] [3601] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2023-07-26 16:13:57.510] [3601] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-07-26 16:13:57.510] [3601] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2023-07-26 16:13:57.511] [3601] (audio_device_impl.cc:620): output: 1
+[2023-07-26 16:13:57.511] [3601] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-07-26 16:13:57.511] [3601] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-07-26 16:13:57.511] [3601] (audio_device_impl.cc:912): BuiltInAECIsAvailable
+[2023-07-26 16:13:57.511] [3601] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-07-26 16:13:57.511] [3601] (audio_device_impl.cc:915): output: 0
+[2023-07-26 16:13:57.511] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:13:57.511] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:13:57.512] [3601] (agc_manager_direct.cc:69): [agc] GetMinMicLevel
+[2023-07-26 16:13:57.512] [3601] (agc_manager_direct.cc:73): [agc] Using default min mic level: 12
+[2023-07-26 16:13:57.512] [3601] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-07-26 16:13:57.512] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:13:58.203] [3538] (discord.cpp:666): JS console: ["%c[DatabaseManager]","active user changed (now: undefined, was: null, was: undefined)"]
+[2023-07-26 16:13:58.213] [3601] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-07-26 16:13:58.214] [3601] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-07-26 16:13:58.214] [3601] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-07-26 16:13:58.214] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-07-26 16:13:58.214] [3601] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2023-07-26 16:13:58.214] [3601] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-07-26 16:13:58.214] [3601] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2023-07-26 16:13:58.215] [3601] (audio_device_impl.cc:574): output: 1
+[2023-07-26 16:13:58.215] [3601] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-07-26 16:13:58.215] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-07-26 16:13:58.215] [3601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-07-26 16:13:58.215] [3601] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-07-26 16:13:58.215] [3601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-07-26 16:13:58.215] [3601] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-07-26 16:13:58.215] [3601] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-07-26 16:13:58.215] [3601] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2023-07-26 16:13:58.216] [3601] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-07-26 16:13:58.216] [3601] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2023-07-26 16:13:58.217] [3601] (audio_device_impl.cc:620): output: 1
+[2023-07-26 16:13:58.217] [3601] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-07-26 16:13:58.217] [3601] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-07-26 16:13:58.217] [3601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-07-26 16:13:58.217] [3601] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-07-26 16:13:58.217] [3601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-07-26 16:13:58.228] [3538] (discord.cpp:666): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 215115, Version Hash: c05cd5422e7bad6849e9a607ee87d72992dd7b9b"]
+[2023-07-26 16:13:58.330] [3601] (engine.cpp:722): Engine::SetClipBufferLength(0)
+[2023-07-26 16:13:58.770] [3538] (discord.cpp:666): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-07-26 16:13:58.976] [3538] (discord.cpp:666): JS console: ["%c[default]","[NATIVE INFO] host 0.0.28, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, build: null"]
+[2023-07-26 16:13:59.085] [3601] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-07-26 16:13:59.085] [3601] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-07-26 16:13:59.085] [3601] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-07-26 16:13:59.085] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-07-26 16:13:59.085] [3601] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2023-07-26 16:13:59.086] [3601] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-07-26 16:13:59.086] [3601] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2023-07-26 16:13:59.087] [3601] (audio_device_impl.cc:574): output: 1
+[2023-07-26 16:13:59.087] [3601] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-07-26 16:13:59.087] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-07-26 16:13:59.087] [3601] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-07-26 16:13:59.087] [3601] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-07-26 16:13:59.087] [3601] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-07-26 16:13:59.087] [3601] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-07-26 16:13:59.087] [3601] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-07-26 16:13:59.087] [3601] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2023-07-26 16:13:59.087] [3601] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-07-26 16:13:59.087] [3601] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2023-07-26 16:13:59.089] [3601] (audio_device_impl.cc:620): output: 1
+[2023-07-26 16:13:59.089] [3601] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-07-26 16:13:59.089] [3601] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-07-26 16:13:59.106] [3538] (discord.cpp:666): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-07-26 16:13:59.307] [3538] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to ru-RU","(available)"]
+[2023-07-26 16:14:00.514] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:00.515] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:00.515] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:00.836] [3538] (discord.cpp:666): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discordapp.com/assets/4df8af9b9070ad304917.js:1447:330)\n    at Bn (https://discordapp.com/assets/4df8af9b9070ad304917.js:1473:696)\n    at Wn (https://discordapp.com/assets/4df8af9b9070ad304917.js:1476:356)\n    at Zn (https://discordapp.com/assets/4df8af9b9070ad304917.js:1476:199)\n    at Yn (https://discordapp.com/assets/4df8af9b9070ad304917.js:1475:886)\n    at Kn (https://discordapp.com/assets/4df8af9b9070ad304917.js:1476:697)\n    at zn (https://discordapp.com/assets/4df8af9b9070ad304917.js:1476:731)\n    at i (https://discordapp.com/assets/4df8af9b9070ad304917.js:1443:961)\n    at 408481 (https://discordapp.com/assets/faaf99fe66fde7828cbb.js:21:346)\n    at l (https://discordapp.com/assets/b062f5bca18b4c1ad7c7.js:1:154)\n    at 558820 (https://discordapp.com/assets/faaf99fe66fde7828cbb.js:14:168)\n    at l (https://discordapp.com/assets/b062f5bca18b4c1ad7c7.js:1:154)\n    at 308739 (https://discordapp.com/assets/faaf99fe66fde7828cbb.js:2:331)\n    at l (https://discordapp.com/assets/b062f5bca18b4c1ad7c7.js:1:154)\n    at 173242 (https://discordapp.com/assets/4802678fbca69e3c6eff.js:365:542)\n    at l (https://discordapp.com/assets/b062f5bca18b4c1ad7c7.js:1:154)\n    at 143775 (https://discordapp.com/assets/dd7bd7434729d6809c03.js:35:278)\n    at Function.l (https://discordapp.com/assets/b062f5bca18b4c1ad7c7.js:1:154)"]
+[2023-07-26 16:14:01.058] [3538] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-07-26 16:14:03.517] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:03.518] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:03.519] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:06.521] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:06.521] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:06.522] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:07.218] [3538] (discord.cpp:666): JS console: ["Initializing krisp module"]
+[2023-07-26 16:14:08.302] [3538] (discord.cpp:666): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-07-26 16:14:08.311] [3538] (discord.cpp:666): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-07-26 16:14:09.524] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:09.525] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:09.525] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:12.527] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:12.528] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:12.528] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:15.531] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:15.532] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:15.533] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:18.535] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:18.536] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:18.537] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:21.215] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-07-26 16:14:21.511] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[302ms] got hello, auth timeout=122590ms"]
+[2023-07-26 16:14:21.537] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:21.538] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:21.538] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:21.966] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[758ms] connected, handshaking with fingerprint: Je-cvanGF8YN9SbCR6LQ4F7I1snE-K263Aa1Iza0KJc"]
+[2023-07-26 16:14:22.115] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[906ms] computed nonce proof"]
+[2023-07-26 16:14:22.257] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1048ms] handshake complete awaiting remote auth."]
+[2023-07-26 16:14:24.541] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:24.541] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:24.542] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:27.544] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:27.544] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:27.545] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:30.548] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:30.548] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:30.549] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:33.551] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:33.551] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:33.552] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:34.572] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[13357ms] cleaning up"]
+[2023-07-26 16:14:34.575] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-07-26 16:14:34.931] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[357ms] got hello, auth timeout=137451ms"]
+[2023-07-26 16:14:35.286] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[713ms] connected, handshaking with fingerprint: Nt81xAP5Ry3TqJyit9lU7jz-vB_AmME44fKO2NGKM6c"]
+[2023-07-26 16:14:35.441] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[867ms] computed nonce proof"]
+[2023-07-26 16:14:35.583] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[1010ms] handshake complete awaiting remote auth."]
+[2023-07-26 16:14:36.552] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:36.552] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:36.553] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:39.554] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:39.554] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:39.555] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:42.557] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:42.558] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:42.558] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:45.561] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:45.561] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:45.562] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:48.564] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:48.565] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:48.565] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:51.567] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:51.568] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:51.569] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:54.571] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:54.571] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:54.572] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:14:57.574] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:57.574] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:14:57.575] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:00.578] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:00.578] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:00.579] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:03.581] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:03.582] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:03.583] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:06.584] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:06.585] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:06.586] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:09.589] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:09.590] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:09.591] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:09.951] [3538] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-07-26 16:15:12.594] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:12.595] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:12.595] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:13.386] [3538] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2023-07-26 16:15:13.644] [3538] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to ru-RU","(available)"]
+[2023-07-26 16:15:15.599] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:15.601] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:15.601] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:18.604] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:18.605] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:18.606] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:21.608] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:21.609] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:21.610] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:24.611] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:24.612] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:24.613] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:27.614] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:27.615] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:27.615] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:30.617] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:30.618] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:30.619] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:33.621] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:33.621] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:33.622] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:36.624] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:36.625] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:36.625] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:39.627] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:39.628] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:39.628] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:42.631] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:42.631] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:42.632] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:45.634] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:45.634] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:45.635] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:48.637] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:48.638] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:48.638] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:51.641] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:51.641] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:51.642] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:54.644] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:54.645] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:54.645] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:15:57.647] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:57.648] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:15:57.648] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:00.651] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:00.651] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:00.652] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:03.654] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:03.655] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:03.655] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:06.657] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:06.658] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:06.658] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:09.661] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:09.661] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:09.662] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:12.665] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:12.665] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:12.666] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:15.667] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:15.668] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:15.668] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:18.671] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:18.672] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:18.672] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:21.674] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:21.675] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:21.675] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:24.677] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:24.678] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:24.678] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:27.687] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:27.688] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:27.688] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:30.104] [3538] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2023-07-26 16:16:30.691] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:30.692] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:30.692] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:32.767] [3538] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching LOGIN_SUCCESS"]
+[2023-07-26 16:16:32.769] [3538] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","setAuthToken called.","[object Object]"]
+[2023-07-26 16:16:32.771] [3538] (discord.cpp:666): JS console: ["%c[ConnectionStore]","session refresh dispatched","[object Object]"]
+[2023-07-26 16:16:32.830] [3538] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2023-07-26 16:16:32.861] [3538] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-07-26 16:16:32.862] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-07-26 16:16:32.863] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-07-26 16:16:32.864] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-07-26 16:16:32.865] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-07-26 16:16:32.868] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-07-26 16:16:32.876] [3538] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[118302ms] cleaning up"]
+[2023-07-26 16:16:33.145] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 279 ms"]
+[2023-07-26 16:16:33.148] [3538] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-07-26 16:16:33.150] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-07-26 16:16:33.151] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-07-26 16:16:33.187] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-3cb8: 0, heartbeat interval: 41250, took 321 ms"]
+[2023-07-26 16:16:33.694] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:33.694] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:33.695] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:34.681] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 1815ms, as 1f86ae63388d68db215a420224011a94 via \ngateway-prd-us-east1-b-3cb8: 211.952\n|  id_created: 0.932\n|  session_lookup_time: 0.298\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-157: 201.867\n|  |  start_session: 149.171\n|  |  |  discord-api-787dffbb67-p9tkh: 135.786\n|  |  |  |  get_user: 13.773\n|  |  |  |  get_guilds: 37.575\n|  |  |  |  user_settings_proto: 0.202\n|  |  |  |  relationships: 39.248\n|  |  |  |  friend_suggestion: 0.083\n|  |  |  |  connections: 0.025\n|  |  |  |  serialized_read_states: 0.005\n|  |  |  |  pending_payments: 0.001\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.002\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.002\n|  |  |  |  serialized_private_channels: 0.001\n|  |  |  |  user_segments: 5.946\n|  |  |  |  experiments: 17.667\n|  |  |  |  affine_user_ids: 0.022\n|  |  |  |  required_action: 0.002\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.084\n|  |  presence_started: 20.171\n|  |  guilds_started: 1.041\n|  |  guilds_connect: 26.336\n|  |  presence_connect: 0\n|  |  connect_finished: 26.354\n|  |  build_ready: 3.402\n|  |  clean_ready: 0.002\n|  |  optimize_ready: 1.592\n|  |  split_ready: 0.048"]
+[2023-07-26 16:16:34.681] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-07-26 16:16:34.985] [3538] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-07-26 16:16:34.991] [3538] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-07-26 16:16:34.999] [3538] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 710450075494645850, database: undefined)"]
+[2023-07-26 16:16:35.000] [3538] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (710450075494645850 → null)"]
+[2023-07-26 16:16:35.052] [3538] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-07-26 16:16:35.223] [3538] (discord.cpp:666): JS console: ["%c[Flux]","Slow dispatch on CONNECTION_OPEN: 237.90000000002328ms"]
+[2023-07-26 16:16:35.229] [3538] (discord.cpp:666): JS console: ["%c[DatabaseManager]","active user changed (now: 710450075494645850, was: undefined, was: undefined)"]
+[2023-07-26 16:16:35.236] [3538] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 480ms"]
+[2023-07-26 16:16:35.244] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-b.discord.gg"]
+[2023-07-26 16:16:35.281] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 2415ms"]
+[2023-07-26 16:16:35.281] [3538] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-07-26 16:16:36.667] [3538] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Dispatched 2 messages in 171ms"]
+[2023-07-26 16:16:36.697] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:36.698] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:36.698] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:39.701] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:39.701] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:39.702] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:39.702] [3538] (discord.cpp:666): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 1815.9000000000233ms"]
+[2023-07-26 16:16:42.522] [3538] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 999387472221974700 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-07-26 16:16:42.704] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:42.705] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:42.705] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:43.314] [3538] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 2 messages for 999387472221974700 isBefore:false isAfter:false"]
+[2023-07-26 16:16:45.099] [3538] (discord.cpp:666): JS console: ["%c[ReadStateStore]","Deleting ReadState","849874428148842516","0","[object Object]"]
+[2023-07-26 16:16:45.104] [3538] (discord.cpp:666): JS console: ["%c[ReadStateStore]","Deleting ReadState","875737736286449674","0","[object Object]"]
+[2023-07-26 16:16:45.107] [3538] (discord.cpp:666): JS console: ["%c[ReadStateStore]","Deleting ReadState","887989664261210112","0","[object Object]"]
+[2023-07-26 16:16:45.111] [3538] (discord.cpp:666): JS console: ["%c[ReadStateStore]","Deleting ReadState","902242683869863956","0","[object Object]"]
+[2023-07-26 16:16:45.115] [3538] (discord.cpp:666): JS console: ["%c[ReadStateStore]","Deleting ReadState","911661901149270046","0","[object Object]"]
+[2023-07-26 16:16:45.119] [3538] (discord.cpp:666): JS console: ["%c[ReadStateStore]","Deleting ReadState","961641618383978506","0","[object Object]"]
+[2023-07-26 16:16:45.707] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:45.708] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:45.708] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:48.711] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:48.711] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:48.712] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:50.114] [3538] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-07-26 16:16:50.255] [3538] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Server revision: 81, Client revision: null"]
+[2023-07-26 16:16:50.256] [3538] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Unable to process domain list delta: Client revision number is null"]
+[2023-07-26 16:16:50.256] [3538] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Downloading the full bad domains file"]
+[2023-07-26 16:16:50.767] [3538] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 26297 after update"]
+[2023-07-26 16:16:51.714] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:51.715] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:51.716] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:54.718] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:54.719] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:54.720] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:16:57.464] [5046] (region_latency_tester.cpp:72): Sending 5 latency test pings to region russia
+[2023-07-26 16:16:57.464] [5046] (region_latency_tester.cpp:72): Sending 5 latency test pings to region stockholm
+[2023-07-26 16:16:57.464] [5046] (region_latency_tester.cpp:72): Sending 5 latency test pings to region bucharest
+[2023-07-26 16:16:57.464] [5046] (region_latency_tester.cpp:72): Sending 5 latency test pings to region frankfurt
+[2023-07-26 16:16:57.465] [5046] (region_latency_tester.cpp:72): Sending 5 latency test pings to region rotterdam
+[2023-07-26 16:16:57.524] [5046] (region_latency_tester.cpp:271): Average RTT for region russia is 5.5
+[2023-07-26 16:16:57.524] [5046] (region_latency_tester.cpp:271): Average RTT for region stockholm is 25.25
+[2023-07-26 16:16:57.524] [5046] (region_latency_tester.cpp:271): Average RTT for region bucharest is 59
+[2023-07-26 16:16:57.524] [5046] (region_latency_tester.cpp:271): Average RTT for region frankfurt is 42.5
+[2023-07-26 16:16:57.524] [5046] (region_latency_tester.cpp:271): Average RTT for region rotterdam is 47.5
+[2023-07-26 16:16:57.530] [3538] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC region latency test completed: ","russia,stockholm,frankfurt,rotterdam,bucharest"]
+[2023-07-26 16:16:57.721] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:57.722] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:16:57.723] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:00.286] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","[CONNECT] wss://russia6746.discord.media/"]
+[2023-07-26 16:17:00.287] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Connecting to RTC server wss://russia6746.discord.media/, rtc-connection-id: 931ea26f-3f23-4f0c-8973-5027e8caecf0"]
+[2023-07-26 16:17:00.288] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: AWAITING_ENDPOINT => CONNECTING"]
+[2023-07-26 16:17:00.660] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Connected to RTC server."]
+[2023-07-26 16:17:00.662] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: CONNECTING => AUTHENTICATING"]
+[2023-07-26 16:17:00.666] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","[CONNECTED] wss://russia6746.discord.media/ in 380 ms"]
+[2023-07-26 16:17:00.668] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","[HELLO] heartbeat interval: 13750, version: 7, took 382 ms"]
+[2023-07-26 16:17:00.669] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","Starting heartbeat with interval: 13750"]
+[2023-07-26 16:17:00.724] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:00.724] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:00.725] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:00.772] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","[READY] took 486 ms"]
+[2023-07-26 16:17:00.775] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: AUTHENTICATING => RTC_CONNECTING"]
+[2023-07-26 16:17:00.788] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Creating connection to 66.22.216.175:50001 with audio ssrc: 697326"]
+[2023-07-26 16:17:00.792] [3601] (voice_connection.cpp:445): Create connection to 66.22.216.175:50001 with ssrc: 697326
+[2023-07-26 16:17:00.792] [3601] (audio_coding.cpp:147): Using software Opus decoder
+[2023-07-26 16:17:00.793] [3601] (audio_coding.cpp:164): Using software Opus encoder
+[2023-07-26 16:17:00.793] [3601] (bitrate_prober.cc:72): Bandwidth probing enabled, set to inactive
+[2023-07-26 16:17:00.793] [3601] (cpu_info.cc:53): Available number of cores: 4
+[2023-07-26 16:17:00.793] [3601] (aimd_rate_control.cc:117): Using aimd rate control with back off factor 0.85
+[2023-07-26 16:17:00.793] [3601] (remote_bitrate_estimator_single_stream.cc:72): RemoteBitrateEstimatorSingleStream: Instantiating.
+[2023-07-26 16:17:00.793] [3601] (remote_estimator_proxy.cc:50): Maximum interval between transport feedback RTCP messages (ms): 250
+[2023-07-26 16:17:00.793] [3601] (audio_device_impl.cc:440): SpeakerIsInitialized
+[2023-07-26 16:17:00.793] [3601] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2023-07-26 16:17:00.793] [3601] (audio_device_impl.cc:443): output: 0
+[2023-07-26 16:17:00.793] [3601] (audio_device_impl.cc:398): InitSpeaker
+[2023-07-26 16:17:00.794] [3601] (audio_device_impl.cc:858): Playing
+[2023-07-26 16:17:00.794] [3601] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-07-26 16:17:00.794] [3601] (audio_device_impl.cc:795): InitPlayout
+[2023-07-26 16:17:00.794] [3601] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-07-26 16:17:00.795] [3601] (audio_device_buffer.cc:186): SetPlayoutSampleRate(48000)
+[2023-07-26 16:17:00.795] [3601] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-07-26 16:17:00.795] [3601] (audio_device_impl.cc:801): output: 0
+[2023-07-26 16:17:00.795] [3601] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-07-26 16:17:00.795] [3601] (audio_device_impl.cc:833): StartPlayout
+[2023-07-26 16:17:00.795] [3601] (audio_device_impl.cc:858): Playing
+[2023-07-26 16:17:00.795] [3601] (audio_device_buffer.cc:98): StartPlayout
+[2023-07-26 16:17:00.804] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"remoteSinkWantsMaxFramerate\": 30\n}"]
+[2023-07-26 16:17:00.813] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"encodingVideoWidth\": 1280,\n    \"encodingVideoHeight\": 720,\n    \"encodingVideoFrameRate\": 30,\n    \"remoteSinkWantsMaxFramerate\": 30,\n    \"remoteSinkWantsPixelCount\": 921600,\n    \"encodingVideoBitRate\": 2500000,\n    \"encodingVideoMinBitRate\": 150000,\n    \"encodingVideoMaxBitRate\": 2500000,\n    \"streamParameters\": [\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"50\",\n            \"ssrc\": 697327,\n            \"rtxSsrc\": 697328,\n            \"quality\": 50,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        },\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"100\",\n            \"ssrc\": 697329,\n            \"rtxSsrc\": 697330,\n            \"quality\": 100,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        }\n    ]\n}"]
+[2023-07-26 16:17:00.816] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"remoteSinkWantsPixelCount\": 921600,\n    \"remoteSinkWantsMaxFramerate\": 30,\n    \"encodingVideoMinBitRate\": 150000,\n    \"encodingVideoMaxBitRate\": 2500000,\n    \"encodingVideoBitRate\": 2500000,\n    \"streamParameters\": [\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"50\",\n            \"ssrc\": 697327,\n            \"rtxSsrc\": 697328,\n            \"quality\": 50,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        },\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"100\",\n            \"ssrc\": 697329,\n            \"rtxSsrc\": 697330,\n            \"quality\": 100,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        }\n    ]\n}"]
+[2023-07-26 16:17:00.842] [3601] (audio_device_impl.cc:840): output: 0
+[2023-07-26 16:17:00.842] [3601] (audio_device_impl.cc:448): MicrophoneIsInitialized
+[2023-07-26 16:17:00.842] [3601] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2023-07-26 16:17:00.842] [3601] (audio_device_impl.cc:451): output: 0
+[2023-07-26 16:17:00.842] [3601] (audio_device_impl.cc:404): InitMicrophone
+[2023-07-26 16:17:00.842] [3610] (audio_device_buffer.cc:287): Size of playout buffer: 960
+[2023-07-26 16:17:00.844] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:00.844] [3601] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-07-26 16:17:00.844] [3601] (audio_device_impl.cc:808): InitRecording
+[2023-07-26 16:17:00.844] [3601] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-07-26 16:17:00.845] [3601] (audio_device_buffer.cc:180): SetRecordingSampleRate(48000)
+[2023-07-26 16:17:00.845] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-07-26 16:17:00.845] [3601] (audio_device_impl.cc:814): output: 0
+[2023-07-26 16:17:00.845] [3601] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-07-26 16:17:00.845] [3601] (audio_device_impl.cc:864): StartRecording
+[2023-07-26 16:17:00.845] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:00.845] [3601] (audio_device_buffer.cc:117): StartRecording
+[2023-07-26 16:17:00.891] [3601] (audio_device_impl.cc:871): output: 0
+[2023-07-26 16:17:00.893] [3601] (paced_sender.cc:186): ProcessThreadAttached 0x8049040
+[2023-07-26 16:17:00.894] [3601] (delay_manager.cc:85): Delay manager config: quantile=0.97 forget_factor=0.9993 start_forget_weight=2 resample_interval_ms=0 max_history_ms=2000
+[2023-07-26 16:17:00.894] [3601] (decision_logic.cc:68): NetEq decision logic settings: estimate_dtx_delay=0 time_stretch_cn=0 target_level_window_ms=100
+[2023-07-26 16:17:00.894] [3601] (neteq_impl.cc:179): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=false, enable_rtx_handling=false, extra_output_delay_ms=0
+[2023-07-26 16:17:00.894] [3601] (audio_coding_module.cc:226): Created
+[2023-07-26 16:17:00.894] [3601] (audio_send_stream.cc:162): AudioSendStream: 697326
+[2023-07-26 16:17:00.894] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.894] [3601] (audio_encoder_opus.cc:677): Set Opus bitrate to 32000 bps.
+[2023-07-26 16:17:00.894] [3601] (call.cc:1168): UpdateAggregateNetworkState: aggregate_state change to up
+[2023-07-26 16:17:00.894] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:00.894] [5056] (rtp_transport_controller_send.cc:599): Creating fallback congestion controller
+[2023-07-26 16:17:00.894] [3601] (rtp_transport_controller_send.cc:301): Network route changed on transport transport: new_route = [ connected: 1 local: [ 0/0 Unknown turn: 0 ] remote: [ 0/0 Unknown turn: 0 ] packet_overhead_bytes: 0 ]
+[2023-07-26 16:17:00.894] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.895] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.895] [5056] (alr_experiment.cc:79): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR bandwidth usage percent: 80, ALR start budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+[2023-07-26 16:17:00.895] [3601] (audio_encoder_opus.cc:747): Set Opus bitrate to 64000 bps.
+[2023-07-26 16:17:00.895] [5056] (trendline_estimator.cc:188): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+[2023-07-26 16:17:00.895] [5056] (trendline_estimator.cc:188): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+[2023-07-26 16:17:00.895] [5056] (aimd_rate_control.cc:117): Using aimd rate control with back off factor 0.85
+[2023-07-26 16:17:00.895] [5056] (delay_based_bwe.cc:116): Initialized DelayBasedBwe with separate audio overuse detection enabled:false,packet_threshold:10,time_threshold:1 s and alr limited backoff disabled
+[2023-07-26 16:17:00.895] [3601] (socket_client.cpp:52): TryConnect: 66.22.216.175:50001 with ssrc: 697326
+[2023-07-26 16:17:00.895] [5056] (bitrate_estimator.cc:67): BitrateEstimator settings, initial_window_ms 500, window_ms: 150
+[2023-07-26 16:17:00.895] [5056] (delay_based_bwe.cc:384): BWE Setting start bitrate to: 700 kbps
+[2023-07-26 16:17:00.895] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.895] [5056] (probe_controller.cc:280): Measured bitrate: 700000 Minimum to probe further: 2940000
+[2023-07-26 16:17:00.895] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.895] [3601] (connection.cpp:554): Changing audio input mode from: 0 to: 1
+[2023-07-26 16:17:00.895] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.895] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.895] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:00.895] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:00.895] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:00.895] [3601] (captured_audio_processor.cpp:119): SetNoiseCancellation: 1
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.896] [5055] (udp_socket.cpp:66): TryConnect: 66.22.216.175:50001 with ssrc: 697326
+[2023-07-26 16:17:00.896] [5056] (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (2100000:3938:5)
+[2023-07-26 16:17:00.896] [5056] (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (4200000:7875:5)
+[2023-07-26 16:17:00.896] [5056] (bitrate_allocator.cc:394): Current BWE 700000
+[2023-07-26 16:17:00.896] [5055] (udp_socket.cpp:517): Sending echo
+[2023-07-26 16:17:00.901] [5055] (udp_socket.cpp:285): ConnectionAttemptFinished: succeeded, local address: 192.162.250.24:2189
+[2023-07-26 16:17:00.902] [3601] (socket_client.cpp:296): OnConnectionComplete, succeeded: 1
+[2023-07-26 16:17:00.930] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Connected with local address 192.162.250.24:2189 and protocol: udp"]
+[2023-07-26 16:17:00.931] [3601] (ssrc_recorder.cpp:62): enabling recording for audio ssrc 697326
+[2023-07-26 16:17:00.931] [3601] (engine.cpp:1097): Supported encoders: H264, VP8, VP9, 
+[2023-07-26 16:17:00.931] [3601] (engine.cpp:1112): Supported decoders: AV1X, H264, VP8, VP9, 
+[2023-07-26 16:17:00.945] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Video codecs: opus,AV1,H264,VP8,VP9"]
+[2023-07-26 16:17:00.946] [3609] (audio_device_buffer.cc:238): Size of recording buffer: 960
+[2023-07-26 16:17:00.948] [3609] (captured_audio_processor.cpp:86): Audio frames processed: 0, noise canceller process time: 0 [ms]
+[2023-07-26 16:17:00.948] [3609] (captured_audio_processor.cpp:97): Audio frame: 0, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 32767
+[2023-07-26 16:17:00.948] [3609] (noise_canceller.cpp:36): Creating noise canceller, channels: 1, rate 48000, duration: 10 [ms], buffer size: 960 [bytes]
+[2023-07-26 16:17:00.957] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Encryption modes: aead_aes256_gcm_rtpsize,aead_aes256_gcm,aead_xchacha20_poly1305_rtpsize,xsalsa20_poly1305_lite_rtpsize,xsalsa20_poly1305_lite,xsalsa20_poly1305_suffix,xsalsa20_poly1305"]
+[2023-07-26 16:17:00.959] [3601] (local_user.cpp:676): Setting voice encode bitrate to: 64000 [bps]
+[2023-07-26 16:17:00.959] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:00.959] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:00.959] [3601] (audio_encoder_opus.cc:677): Set Opus bitrate to 32000 bps.
+[2023-07-26 16:17:00.959] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:00.959] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:00.959] [3601] (audio_encoder_opus.cc:747): Set Opus bitrate to 64000 bps.
+[2023-07-26 16:17:00.959] [5056] (delay_based_bwe.cc:384): BWE Setting start bitrate to: 600 kbps
+[2023-07-26 16:17:00.959] [5056] (probe_controller.cc:280): Measured bitrate: 600000 Minimum to probe further: 2940000
+[2023-07-26 16:17:00.960] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:00.960] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:00.960] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:00.960] [3601] (captured_audio_processor.cpp:119): SetNoiseCancellation: 1
+[2023-07-26 16:17:00.960] [3601] (audio_device_impl.cc:912): BuiltInAECIsAvailable
+[2023-07-26 16:17:00.960] [3601] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-07-26 16:17:00.960] [3601] (audio_device_impl.cc:915): output: 0
+[2023-07-26 16:17:00.965] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Connection state change: CONNECTING => CONNECTED"]
+[2023-07-26 16:17:00.965] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC media connection state change: RTC_CONNECTING => CONNECTED"]
+[2023-07-26 16:17:00.966] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: RTC_CONNECTING => RTC_CONNECTED"]
+[2023-07-26 16:17:00.980] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connected to media server: 66.22.216.175:50001"]
+[2023-07-26 16:17:00.984] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Sending UDP info to RTC server.","[object Object]","fixed_keyframe_interval"]
+[2023-07-26 16:17:01.002] [5055] (udp_socket.cpp:898): Sending ping to 66.22.216.175:50001, seq: 1
+[2023-07-26 16:17:01.007] [3601] (socket_client.cpp:265): Ping received from 66.22.216.175:50001, seq: 1, rtt: 5
+[2023-07-26 16:17:01.009] [3609] (voice_activity_detector.cpp:35): Creating voice activity detector, channels: 1, rate 48000, duration: 10 [ms]
+[2023-07-26 16:17:01.068] [3609] (ssrc_recorder.cpp:86):  adding new audio track for ssrc 697326 @48000Hz/2ch userId=710450075494645850 game=0
+[2023-07-26 16:17:01.075] [5059] (rtp_sender_audio.cc:317): First audio RTP packet sent to pacer
+[2023-07-26 16:17:01.244] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:01.244] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:01.245] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Setting media-session-id: 3603ca09b8cfe21c836d87e6e590356d for rtc-connection-id: 931ea26f-3f23-4f0c-8973-5027e8caecf0"]
+[2023-07-26 16:17:01.248] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Selected encryption mode: aead_aes256_gcm_rtpsize"]
+[2023-07-26 16:17:01.250] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:01.250] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:01.298] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Remote media sink wants: {\"any\":100}"]
+[2023-07-26 16:17:01.300] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"remoteSinkWantsPixelCount\": 921600,\n    \"remoteSinkWantsMaxFramerate\": 30,\n    \"encodingVideoMinBitRate\": 150000,\n    \"encodingVideoMaxBitRate\": 2500000,\n    \"encodingVideoBitRate\": 2500000,\n    \"streamParameters\": [\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"50\",\n            \"ssrc\": 697327,\n            \"rtxSsrc\": 697328,\n            \"quality\": 50,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        },\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"100\",\n            \"ssrc\": 697329,\n            \"rtxSsrc\": 697330,\n            \"quality\": 100,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        }\n    ]\n}"]
+[2023-07-26 16:17:01.301] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:01.301] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 697326, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:01.554] [3601] (connection.cpp:706): Outbound audio stats for user: 710450075494645850, audio ssrc: 697326, packets sent: 15, packets lost: -1
+[2023-07-26 16:17:01.554] [3601] (connection.cpp:806): Transport stats for user: 710450075494645850, rtt: -1 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 697326: {seq: 38422, tseq: -1}, 
+[2023-07-26 16:17:01.554] [3601] (connection.cpp:829): Memory usage: 412 MB, CPU usage: N/A
+[2023-07-26 16:17:01.897] [5056] (probe_controller.cc:378): kWaitingForProbingResult: timeout
+[2023-07-26 16:17:02.113] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Destroy RTCConnection"]
+[2023-07-26 16:17:02.114] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","CLOSE"]
+[2023-07-26 16:17:02.117] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_CONNECTED"]
+[2023-07-26 16:17:02.127] [3601] (engine.cpp:1153): obtained codec survey:null
+
+[2023-07-26 16:17:02.128] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:02.128] [3601] (audio_device_impl.cc:878): StopRecording
+[2023-07-26 16:17:02.128] [3601] (audio_device_buffer.cc:153): StopRecording
+[2023-07-26 16:17:02.128] [3601] (audio_device_buffer.cc:176): total recording time: 1283
+[2023-07-26 16:17:02.128] [3601] (audio_device_impl.cc:882): output: 0
+[2023-07-26 16:17:02.129] [3601] (audio_device_impl.cc:878): StopRecording
+[2023-07-26 16:17:02.129] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Connection state change: CONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:02.130] [3601] (audio_device_impl.cc:882): output: 0
+[2023-07-26 16:17:02.131] [3601] (call.cc:1168): UpdateAggregateNetworkState: aggregate_state change to down
+[2023-07-26 16:17:02.131] [3601] (audio_send_stream.cc:178): ~AudioSendStream: 697326
+[2023-07-26 16:17:02.131] [5056] (pacing_controller.cc:162): PacedSender paused.
+[2023-07-26 16:17:02.131] [5056] (control_handler.cc:78): Bitrate estimate state changed, BWE: 600 kbps.
+[2023-07-26 16:17:02.132] [3601] (connection.cpp:1248): [callscope] key:
+[2023-07-26 16:17:02.132] [3601] (engine.cpp:416): Stopping audio output device
+[2023-07-26 16:17:02.132] [3601] (audio_device_impl.cc:858): Playing
+[2023-07-26 16:17:02.132] [3601] (audio_device_impl.cc:847): StopPlayout
+[2023-07-26 16:17:02.132] [3601] (audio_device_buffer.cc:139): StopPlayout
+[2023-07-26 16:17:02.132] [3601] (audio_device_buffer.cc:145): total playout time: 1337
+[2023-07-26 16:17:02.132] [3601] (audio_device_impl.cc:851): output: 0
+[2023-07-26 16:17:02.136] [3601] (paced_sender.cc:186): ProcessThreadAttached 0x0
+[2023-07-26 16:17:02.136] [3601] (paced_sender.cc:186): ProcessThreadAttached 0x0
+[2023-07-26 16:17:02.136] [5055] (udp_socket.cpp:395): Disconnect
+[2023-07-26 16:17:02.132] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC media connection state change: RTC_CONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:02.137] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: RTC_CONNECTED => RTC_DISCONNECTED"]
+[2023-07-26 16:17:02.142] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Connection state change: DISCONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:02.142] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC media connection state change: RTC_DISCONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:02.143] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: RTC_DISCONNECTED => RTC_DISCONNECTED"]
+[2023-07-26 16:17:02.145] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: RTC_DISCONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:02.358] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Error: codec survey is not available"]
+[2023-07-26 16:17:03.728] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:03.729] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:03.729] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:06.731] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:06.731] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:06.732] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:09.734] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:09.734] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:09.735] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:12.737] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:12.738] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:12.738] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:15.742] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:15.743] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:15.743] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:18.744] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:18.745] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:18.746] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:21.747] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:21.748] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:21.748] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:22.061] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","[CONNECT] wss://russia8893.discord.media/"]
+[2023-07-26 16:17:22.062] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Connecting to RTC server wss://russia8893.discord.media/, rtc-connection-id: 9a458557-4567-4c91-b9f0-0d660357fd15"]
+[2023-07-26 16:17:22.063] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: AWAITING_ENDPOINT => CONNECTING"]
+[2023-07-26 16:17:22.439] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Connected to RTC server."]
+[2023-07-26 16:17:22.440] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: CONNECTING => AUTHENTICATING"]
+[2023-07-26 16:17:22.443] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","[CONNECTED] wss://russia8893.discord.media/ in 382 ms"]
+[2023-07-26 16:17:22.444] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","[HELLO] heartbeat interval: 13750, version: 7, took 383 ms"]
+[2023-07-26 16:17:22.445] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","Starting heartbeat with interval: 13750"]
+[2023-07-26 16:17:22.526] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","[READY] took 465 ms"]
+[2023-07-26 16:17:22.527] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: AUTHENTICATING => RTC_CONNECTING"]
+[2023-07-26 16:17:22.532] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Creating connection to 66.22.216.93:50001 with audio ssrc: 724955"]
+[2023-07-26 16:17:22.534] [3601] (voice_connection.cpp:445): Create connection to 66.22.216.93:50001 with ssrc: 724955
+[2023-07-26 16:17:22.534] [3601] (audio_coding.cpp:147): Using software Opus decoder
+[2023-07-26 16:17:22.534] [3601] (audio_coding.cpp:164): Using software Opus encoder
+[2023-07-26 16:17:22.534] [3601] (bitrate_prober.cc:72): Bandwidth probing enabled, set to inactive
+[2023-07-26 16:17:22.535] [3601] (aimd_rate_control.cc:117): Using aimd rate control with back off factor 0.85
+[2023-07-26 16:17:22.535] [3601] (remote_bitrate_estimator_single_stream.cc:72): RemoteBitrateEstimatorSingleStream: Instantiating.
+[2023-07-26 16:17:22.535] [3601] (remote_estimator_proxy.cc:50): Maximum interval between transport feedback RTCP messages (ms): 250
+[2023-07-26 16:17:22.535] [3601] (audio_device_impl.cc:440): SpeakerIsInitialized
+[2023-07-26 16:17:22.535] [3601] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2023-07-26 16:17:22.535] [3601] (audio_device_impl.cc:443): output: 1
+[2023-07-26 16:17:22.535] [3601] (audio_device_impl.cc:858): Playing
+[2023-07-26 16:17:22.535] [3601] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-07-26 16:17:22.535] [3601] (audio_device_impl.cc:795): InitPlayout
+[2023-07-26 16:17:22.535] [3601] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-07-26 16:17:22.536] [3601] (audio_device_buffer.cc:186): SetPlayoutSampleRate(48000)
+[2023-07-26 16:17:22.536] [3601] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-07-26 16:17:22.536] [3601] (audio_device_impl.cc:801): output: 0
+[2023-07-26 16:17:22.536] [3601] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-07-26 16:17:22.536] [3601] (audio_device_impl.cc:833): StartPlayout
+[2023-07-26 16:17:22.536] [3601] (audio_device_impl.cc:858): Playing
+[2023-07-26 16:17:22.536] [3601] (audio_device_buffer.cc:98): StartPlayout
+[2023-07-26 16:17:22.539] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"remoteSinkWantsMaxFramerate\": 30\n}"]
+[2023-07-26 16:17:22.542] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"encodingVideoWidth\": 1280,\n    \"encodingVideoHeight\": 720,\n    \"encodingVideoFrameRate\": 30,\n    \"remoteSinkWantsMaxFramerate\": 30,\n    \"remoteSinkWantsPixelCount\": 921600,\n    \"encodingVideoBitRate\": 2500000,\n    \"encodingVideoMinBitRate\": 150000,\n    \"encodingVideoMaxBitRate\": 2500000,\n    \"streamParameters\": [\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"50\",\n            \"ssrc\": 724956,\n            \"rtxSsrc\": 724957,\n            \"quality\": 50,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        },\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"100\",\n            \"ssrc\": 724958,\n            \"rtxSsrc\": 724959,\n            \"quality\": 100,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        }\n    ]\n}"]
+[2023-07-26 16:17:22.544] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"remoteSinkWantsPixelCount\": 921600,\n    \"remoteSinkWantsMaxFramerate\": 30,\n    \"encodingVideoMinBitRate\": 150000,\n    \"encodingVideoMaxBitRate\": 2500000,\n    \"encodingVideoBitRate\": 2500000,\n    \"streamParameters\": [\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"50\",\n            \"ssrc\": 724956,\n            \"rtxSsrc\": 724957,\n            \"quality\": 50,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        },\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"100\",\n            \"ssrc\": 724958,\n            \"rtxSsrc\": 724959,\n            \"quality\": 100,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        }\n    ]\n}"]
+[2023-07-26 16:17:22.573] [3610] (audio_device_pulse_linux.cc:1861): Can't query latency
+[2023-07-26 16:17:22.573] [3610] (audio_device_pulse_linux.cc:1861): Can't query latency
+[2023-07-26 16:17:22.573] [3610] (audio_device_pulse_linux.cc:1861): Can't query latency
+[2023-07-26 16:17:22.573] [3601] (audio_device_impl.cc:840): output: 0
+[2023-07-26 16:17:22.573] [3601] (audio_device_impl.cc:448): MicrophoneIsInitialized
+[2023-07-26 16:17:22.573] [3601] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2023-07-26 16:17:22.573] [3601] (audio_device_impl.cc:451): output: 1
+[2023-07-26 16:17:22.573] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:22.573] [3601] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-07-26 16:17:22.573] [3601] (audio_device_impl.cc:808): InitRecording
+[2023-07-26 16:17:22.573] [3601] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-07-26 16:17:22.576] [3601] (audio_device_buffer.cc:180): SetRecordingSampleRate(48000)
+[2023-07-26 16:17:22.576] [3601] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-07-26 16:17:22.576] [3601] (audio_device_impl.cc:814): output: 0
+[2023-07-26 16:17:22.576] [3601] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-07-26 16:17:22.576] [3601] (audio_device_impl.cc:864): StartRecording
+[2023-07-26 16:17:22.576] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:22.576] [3601] (audio_device_buffer.cc:117): StartRecording
+[2023-07-26 16:17:22.598] [3608] (audio_device_pulse_linux.cc:1768): Playout underflow
+[2023-07-26 16:17:22.619] [3601] (audio_device_impl.cc:871): output: 0
+[2023-07-26 16:17:22.622] [3601] (paced_sender.cc:186): ProcessThreadAttached 0xc8e2bc0
+[2023-07-26 16:17:22.622] [3601] (delay_manager.cc:85): Delay manager config: quantile=0.97 forget_factor=0.9993 start_forget_weight=2 resample_interval_ms=0 max_history_ms=2000
+[2023-07-26 16:17:22.622] [3601] (decision_logic.cc:68): NetEq decision logic settings: estimate_dtx_delay=0 time_stretch_cn=0 target_level_window_ms=100
+[2023-07-26 16:17:22.622] [3601] (neteq_impl.cc:179): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=false, enable_rtx_handling=false, extra_output_delay_ms=0
+[2023-07-26 16:17:22.622] [3601] (audio_coding_module.cc:226): Created
+[2023-07-26 16:17:22.623] [3601] (audio_send_stream.cc:162): AudioSendStream: 724955
+[2023-07-26 16:17:22.623] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.623] [3601] (audio_encoder_opus.cc:677): Set Opus bitrate to 32000 bps.
+[2023-07-26 16:17:22.623] [3601] (call.cc:1168): UpdateAggregateNetworkState: aggregate_state change to up
+[2023-07-26 16:17:22.623] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:22.623] [3601] (rtp_transport_controller_send.cc:301): Network route changed on transport transport: new_route = [ connected: 1 local: [ 0/0 Unknown turn: 0 ] remote: [ 0/0 Unknown turn: 0 ] packet_overhead_bytes: 0 ]
+[2023-07-26 16:17:22.623] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.623] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.623] [3601] (audio_encoder_opus.cc:747): Set Opus bitrate to 64000 bps.
+[2023-07-26 16:17:22.623] [3601] (socket_client.cpp:52): TryConnect: 66.22.216.93:50001 with ssrc: 724955
+[2023-07-26 16:17:22.623] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.623] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.623] [3601] (connection.cpp:554): Changing audio input mode from: 0 to: 1
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:22.624] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:22.624] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:22.624] [3601] (captured_audio_processor.cpp:119): SetNoiseCancellation: 1
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.624] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.625] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.625] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.625] [5156] (rtp_transport_controller_send.cc:599): Creating fallback congestion controller
+[2023-07-26 16:17:22.626] [5156] (alr_experiment.cc:79): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR bandwidth usage percent: 80, ALR start budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+[2023-07-26 16:17:22.626] [5156] (trendline_estimator.cc:188): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+[2023-07-26 16:17:22.626] [5156] (trendline_estimator.cc:188): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+[2023-07-26 16:17:22.626] [5156] (aimd_rate_control.cc:117): Using aimd rate control with back off factor 0.85
+[2023-07-26 16:17:22.626] [5156] (delay_based_bwe.cc:116): Initialized DelayBasedBwe with separate audio overuse detection enabled:false,packet_threshold:10,time_threshold:1 s and alr limited backoff disabled
+[2023-07-26 16:17:22.626] [5156] (bitrate_estimator.cc:67): BitrateEstimator settings, initial_window_ms 500, window_ms: 150
+[2023-07-26 16:17:22.626] [5156] (delay_based_bwe.cc:384): BWE Setting start bitrate to: 700 kbps
+[2023-07-26 16:17:22.626] [5156] (probe_controller.cc:280): Measured bitrate: 700000 Minimum to probe further: 2940000
+[2023-07-26 16:17:22.626] [5156] (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (2100000:3938:5)
+[2023-07-26 16:17:22.626] [5156] (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (4200000:7875:5)
+[2023-07-26 16:17:22.626] [5156] (bitrate_allocator.cc:394): Current BWE 700000
+[2023-07-26 16:17:22.624] [5155] (udp_socket.cpp:66): TryConnect: 66.22.216.93:50001 with ssrc: 724955
+[2023-07-26 16:17:22.627] [5155] (udp_socket.cpp:517): Sending echo
+[2023-07-26 16:17:22.632] [5155] (udp_socket.cpp:285): ConnectionAttemptFinished: succeeded, local address: 192.162.250.24:2233
+[2023-07-26 16:17:22.639] [3601] (socket_client.cpp:296): OnConnectionComplete, succeeded: 1
+[2023-07-26 16:17:22.642] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Connected with local address 192.162.250.24:2233 and protocol: udp"]
+[2023-07-26 16:17:22.643] [3601] (ssrc_recorder.cpp:62): enabling recording for audio ssrc 724955
+[2023-07-26 16:17:22.643] [3601] (engine.cpp:1097): Supported encoders: H264, VP8, VP9, 
+[2023-07-26 16:17:22.643] [3601] (engine.cpp:1112): Supported decoders: AV1X, H264, VP8, VP9, 
+[2023-07-26 16:17:22.644] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Video codecs: opus,AV1,H264,VP8,VP9"]
+[2023-07-26 16:17:22.646] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Encryption modes: aead_aes256_gcm_rtpsize,aead_aes256_gcm,aead_xchacha20_poly1305_rtpsize,xsalsa20_poly1305_lite_rtpsize,xsalsa20_poly1305_lite,xsalsa20_poly1305_suffix,xsalsa20_poly1305"]
+[2023-07-26 16:17:22.648] [3601] (local_user.cpp:676): Setting voice encode bitrate to: 64000 [bps]
+[2023-07-26 16:17:22.648] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 0, stereo: 0, usedtx: 0, useinbandfec: 0}}}}
+[2023-07-26 16:17:22.648] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:22.648] [3601] (audio_encoder_opus.cc:677): Set Opus bitrate to 32000 bps.
+[2023-07-26 16:17:22.648] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:22.648] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:22.648] [3601] (audio_encoder_opus.cc:747): Set Opus bitrate to 64000 bps.
+[2023-07-26 16:17:22.648] [5156] (delay_based_bwe.cc:384): BWE Setting start bitrate to: 600 kbps
+[2023-07-26 16:17:22.648] [5156] (probe_controller.cc:280): Measured bitrate: 600000 Minimum to probe further: 2940000
+[2023-07-26 16:17:22.649] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:22.649] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:22.649] [3601] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-07-26 16:17:22.649] [3601] (captured_audio_processor.cpp:119): SetNoiseCancellation: 1
+[2023-07-26 16:17:22.649] [3601] (audio_device_impl.cc:912): BuiltInAECIsAvailable
+[2023-07-26 16:17:22.649] [3601] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-07-26 16:17:22.649] [3601] (audio_device_impl.cc:915): output: 0
+[2023-07-26 16:17:22.649] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Connection state change: CONNECTING => CONNECTED"]
+[2023-07-26 16:17:22.650] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC media connection state change: RTC_CONNECTING => CONNECTED"]
+[2023-07-26 16:17:22.650] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: RTC_CONNECTING => RTC_CONNECTED"]
+[2023-07-26 16:17:22.657] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connected to media server: 66.22.216.93:50001"]
+[2023-07-26 16:17:22.658] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Sending UDP info to RTC server.","[object Object]","fixed_keyframe_interval"]
+[2023-07-26 16:17:22.666] [3609] (captured_audio_processor.cpp:86): Audio frames processed: 120, noise canceller process time: 257 [ms]
+[2023-07-26 16:17:22.666] [3609] (captured_audio_processor.cpp:97): Audio frame: 120, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 32373
+[2023-07-26 16:17:22.667] [3609] (voice_activity_detector.cpp:35): Creating voice activity detector, channels: 1, rate 48000, duration: 10 [ms]
+[2023-07-26 16:17:22.718] [3609] (ssrc_recorder.cpp:86):  adding new audio track for ssrc 724955 @48000Hz/2ch userId=710450075494645850 game=0
+[2023-07-26 16:17:22.724] [5159] (rtp_sender_audio.cc:317): First audio RTP packet sent to pacer
+[2023-07-26 16:17:22.733] [5155] (udp_socket.cpp:898): Sending ping to 66.22.216.93:50001, seq: 1
+[2023-07-26 16:17:22.738] [3601] (socket_client.cpp:265): Ping received from 66.22.216.93:50001, seq: 1, rtt: 4
+[2023-07-26 16:17:22.803] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:22.803] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:22.804] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Setting media-session-id: 1fb74df3d5ac3ef54a95bcdb42a062e5 for rtc-connection-id: 9a458557-4567-4c91-b9f0-0d660357fd15"]
+[2023-07-26 16:17:22.804] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Selected encryption mode: aead_aes256_gcm_rtpsize"]
+[2023-07-26 16:17:22.805] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:22.805] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:22.900] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Remote media sink wants: {\"any\":100}"]
+[2023-07-26 16:17:22.902] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"remoteSinkWantsPixelCount\": 921600,\n    \"remoteSinkWantsMaxFramerate\": 30,\n    \"encodingVideoMinBitRate\": 150000,\n    \"encodingVideoMaxBitRate\": 2500000,\n    \"encodingVideoBitRate\": 2500000,\n    \"streamParameters\": [\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"50\",\n            \"ssrc\": 724956,\n            \"rtxSsrc\": 724957,\n            \"quality\": 50,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        },\n        {\n            \"type\": \"video\",\n            \"active\": false,\n            \"rid\": \"100\",\n            \"ssrc\": 724958,\n            \"rtxSsrc\": 724959,\n            \"quality\": 100,\n            \"maxBitrate\": 2500000,\n            \"maxFrameRate\": 30,\n            \"maxResolution\": {\n                \"type\": \"fixed\",\n                \"width\": 1280,\n                \"height\": 720\n            },\n            \"maxPixelCount\": 921600\n        }\n    ]\n}"]
+[2023-07-26 16:17:22.903] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:22.903] [3601] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 724955, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-07-26 16:17:23.031] [3601] (connection.cpp:706): Outbound audio stats for user: 710450075494645850, audio ssrc: 724955, packets sent: 14, packets lost: 0
+[2023-07-26 16:17:23.031] [3601] (connection.cpp:806): Transport stats for user: 710450075494645850, rtt: -1 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 724955: {seq: 49340, tseq: -1}, 
+[2023-07-26 16:17:23.032] [3601] (connection.cpp:829): Memory usage: 429 MB, CPU usage: N/A
+[2023-07-26 16:17:23.626] [5156] (probe_controller.cc:378): kWaitingForProbingResult: timeout
+[2023-07-26 16:17:24.751] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:24.751] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:24.752] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:27.734] [5155] (udp_socket.cpp:898): Sending ping to 66.22.216.93:50001, seq: 2
+[2023-07-26 16:17:27.743] [3601] (socket_client.cpp:265): Ping received from 66.22.216.93:50001, seq: 2, rtt: 9
+[2023-07-26 16:17:27.754] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:27.755] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:27.756] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:28.332] [3538] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Updating userContent with delay 0"]
+[2023-07-26 16:17:28.354] [3538] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Scheduling save from markDirty"]
+[2023-07-26 16:17:28.472] [3538] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-07-26 16:17:28.478] [3538] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2023-07-26 16:17:28.526] [3538] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Persisting proto"]
+[2023-07-26 16:17:29.089] [3538] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-07-26 16:17:30.757] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:30.758] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:30.758] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:32.692] [3609] (captured_audio_processor.cpp:86): Audio frames processed: 1122, noise canceller process time: 2242 [ms]
+[2023-07-26 16:17:32.692] [3609] (captured_audio_processor.cpp:97): Audio frame: 1122, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 32319
+[2023-07-26 16:17:32.734] [5155] (udp_socket.cpp:898): Sending ping to 66.22.216.93:50001, seq: 3
+[2023-07-26 16:17:32.738] [3601] (socket_client.cpp:265): Ping received from 66.22.216.93:50001, seq: 3, rtt: 4
+[2023-07-26 16:17:33.564] [3601] (connection.cpp:706): Outbound audio stats for user: 710450075494645850, audio ssrc: 724955, packets sent: 453, packets lost: 0
+[2023-07-26 16:17:33.564] [3601] (connection.cpp:806): Transport stats for user: 710450075494645850, rtt: 11 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 724955: {seq: 49781, tseq: -1}, 
+[2023-07-26 16:17:33.564] [3601] (connection.cpp:829): Memory usage: 447 MB, CPU usage: N/A
+[2023-07-26 16:17:33.761] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:33.761] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:33.762] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:36.196] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2023-07-26 16:17:36.281] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2023-07-26 16:17:36.764] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:36.764] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:36.765] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:37.733] [5155] (udp_socket.cpp:898): Sending ping to 66.22.216.93:50001, seq: 4
+[2023-07-26 16:17:37.738] [3601] (socket_client.cpp:265): Ping received from 66.22.216.93:50001, seq: 4, rtt: 4
+[2023-07-26 16:17:39.767] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:39.768] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:39.768] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:42.554] [3607] (audio_device_buffer.cc:411): [REC : 10010msec, 48kHz] callbacks: 1003, samples: 481440, rate: 48096, rate diff: 0%, level: 32767
+[2023-07-26 16:17:42.554] [3607] (audio_device_buffer.cc:437): [PLAY: 10010msec, 48kHz] callbacks: 1000, samples: 480000, rate: 47952, rate diff: 0%, level: 0
+[2023-07-26 16:17:42.697] [3609] (captured_audio_processor.cpp:86): Audio frames processed: 2124, noise canceller process time: 4046 [ms]
+[2023-07-26 16:17:42.697] [3609] (captured_audio_processor.cpp:97): Audio frame: 2124, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 32195
+[2023-07-26 16:17:42.734] [5155] (udp_socket.cpp:898): Sending ping to 66.22.216.93:50001, seq: 5
+[2023-07-26 16:17:42.738] [3601] (socket_client.cpp:265): Ping received from 66.22.216.93:50001, seq: 5, rtt: 4
+[2023-07-26 16:17:42.771] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:42.771] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:42.772] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:43.616] [3601] (connection.cpp:706): Outbound audio stats for user: 710450075494645850, audio ssrc: 724955, packets sent: 915, packets lost: 0
+[2023-07-26 16:17:43.616] [3601] (connection.cpp:806): Transport stats for user: 710450075494645850, rtt: 5 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 724955: {seq: 50219, tseq: -1}, 
+[2023-07-26 16:17:43.616] [3601] (connection.cpp:829): Memory usage: 435 MB, CPU usage: N/A
+[2023-07-26 16:17:45.774] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:45.775] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:45.775] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:47.733] [5155] (udp_socket.cpp:898): Sending ping to 66.22.216.93:50001, seq: 6
+[2023-07-26 16:17:47.743] [3601] (socket_client.cpp:265): Ping received from 66.22.216.93:50001, seq: 6, rtt: 9
+[2023-07-26 16:17:48.777] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:48.778] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:48.778] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:49.992] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2023-07-26 16:17:50.084] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2023-07-26 16:17:51.781] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:51.781] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:51.782] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:52.564] [3607] (audio_device_buffer.cc:411): [REC : 10010msec, 48kHz] callbacks: 999, samples: 479520, rate: 47904, rate diff: 0%, level: 32767
+[2023-07-26 16:17:52.564] [3607] (audio_device_buffer.cc:437): [PLAY: 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 0
+[2023-07-26 16:17:52.702] [3609] (captured_audio_processor.cpp:86): Audio frames processed: 3123, noise canceller process time: 5856 [ms]
+[2023-07-26 16:17:52.703] [3609] (captured_audio_processor.cpp:97): Audio frame: 3123, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 19751
+[2023-07-26 16:17:52.734] [5155] (udp_socket.cpp:898): Sending ping to 66.22.216.93:50001, seq: 7
+[2023-07-26 16:17:52.739] [3601] (socket_client.cpp:265): Ping received from 66.22.216.93:50001, seq: 7, rtt: 5
+[2023-07-26 16:17:52.933] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Destroy RTCConnection"]
+[2023-07-26 16:17:52.933] [3538] (discord.cpp:666): JS console: ["%c[RTCControlSocket]","CLOSE"]
+[2023-07-26 16:17:52.933] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_CONNECTED"]
+[2023-07-26 16:17:52.936] [3601] (audio_device_impl.cc:889): Recording
+[2023-07-26 16:17:52.936] [3601] (audio_device_impl.cc:878): StopRecording
+[2023-07-26 16:17:52.936] [3601] (audio_device_buffer.cc:153): StopRecording
+[2023-07-26 16:17:52.936] [3601] (audio_device_buffer.cc:173): HISTOGRAM(WebRTC.Audio.RecordedOnlyZeros): 0
+[2023-07-26 16:17:52.936] [3601] (audio_device_buffer.cc:176): total recording time: 30360
+[2023-07-26 16:17:52.936] [3601] (audio_device_impl.cc:882): output: 0
+[2023-07-26 16:17:52.936] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Connection state change: CONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:52.937] [3601] (audio_device_impl.cc:878): StopRecording
+[2023-07-26 16:17:52.937] [3601] (audio_device_impl.cc:882): output: 0
+[2023-07-26 16:17:52.937] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC media connection state change: RTC_CONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:52.937] [3601] (call.cc:1168): UpdateAggregateNetworkState: aggregate_state change to down
+[2023-07-26 16:17:52.937] [3601] (audio_send_stream.cc:178): ~AudioSendStream: 724955
+[2023-07-26 16:17:52.937] [5156] (pacing_controller.cc:162): PacedSender paused.
+[2023-07-26 16:17:52.937] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: RTC_CONNECTED => RTC_DISCONNECTED"]
+[2023-07-26 16:17:52.937] [5156] (control_handler.cc:78): Bitrate estimate state changed, BWE: 600 kbps.
+[2023-07-26 16:17:52.938] [3538] (discord.cpp:666): JS console: ["%c[Connection(default)]","Connection state change: DISCONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:52.938] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC media connection state change: RTC_DISCONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:52.938] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: RTC_DISCONNECTED => RTC_DISCONNECTED"]
+[2023-07-26 16:17:52.939] [3601] (connection.cpp:1248): [callscope] key:
+[2023-07-26 16:17:52.939] [3601] (engine.cpp:416): Stopping audio output device
+[2023-07-26 16:17:52.939] [3601] (audio_device_impl.cc:858): Playing
+[2023-07-26 16:17:52.939] [3601] (audio_device_impl.cc:847): StopPlayout
+[2023-07-26 16:17:52.939] [3601] (audio_device_buffer.cc:139): StopPlayout
+[2023-07-26 16:17:52.939] [3601] (audio_device_buffer.cc:145): total playout time: 30404
+[2023-07-26 16:17:52.940] [3601] (audio_device_impl.cc:851): output: 0
+[2023-07-26 16:17:52.940] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","RTC connection state: RTC_DISCONNECTED => DISCONNECTED"]
+[2023-07-26 16:17:52.947] [3601] (paced_sender.cc:186): ProcessThreadAttached 0x0
+[2023-07-26 16:17:52.947] [3601] (paced_sender.cc:186): ProcessThreadAttached 0x0
+[2023-07-26 16:17:52.948] [5155] (udp_socket.cpp:395): Disconnect
+[2023-07-26 16:17:53.080] [3538] (discord.cpp:666): JS console: ["%c[RTCConnection(999387472221974700, default)]","Error: codec survey is not available"]
+[2023-07-26 16:17:54.784] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:54.785] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:54.785] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:17:57.788] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:57.789] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:17:57.790] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:18:00.791] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:00.793] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:00.794] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:18:03.795] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:03.796] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:03.797] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:18:06.797] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:06.798] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:06.799] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:18:09.803] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:09.804] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:09.805] [3602] (device_info_linux.cc:78): GetDeviceName
+[2023-07-26 16:18:12.807] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:12.808] [3602] (device_info_linux.cc:45): NumberOfDevices
+[2023-07-26 16:18:12.809] [3602] (device_info_linux.cc:78): GetDeviceName

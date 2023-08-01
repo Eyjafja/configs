@@ -1,0 +1,10 @@
+2023/07/24-21:19:55.904 f6b Creating DB /home/Eyjafja/.config/thorium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/07/24-21:19:55.914 f6b Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/24-21:19:56.104 f6f Level-0 table #5: started
+2023/07/24-21:19:56.108 f6f Level-0 table #5: 7359 bytes OK
+2023/07/24-21:19:56.111 f6f Delete type=0 #3
+2023/07/24-21:19:56.111 f6f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/24-21:19:59.478 f6f Level-0 table #7: started
+2023/07/24-21:19:59.482 f6f Level-0 table #7: 22371 bytes OK
+2023/07/24-21:19:59.485 f6f Delete type=0 #4
+2023/07/24-21:19:59.486 f6c Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

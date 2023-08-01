@@ -1,0 +1,6 @@
+2023/07/30-22:06:20.108 10b0 Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/30-22:06:20.109 10b0 Recovering log #7
+2023/07/30-22:06:20.141 10b0 Reusing old log /home/Eyjafja/.config/thorium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000007.log 
+2023/07/30-22:07:11.318 10b0 Level-0 table #12: started
+2023/07/30-22:07:11.449 10b0 Level-0 table #12: 2001339 bytes OK
+2023/07/30-22:07:11.456 10b0 Delete type=0 #7

@@ -1,0 +1,26 @@
+2023/07/26-23:35:32.954 b32 Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/26-23:35:32.954 b32 Recovering log #26
+2023/07/26-23:35:32.954 b32 Reusing old log /home/Eyjafja/.config/thorium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000026.log 
+2023/07/26-23:35:32.955 b32 Delete type=2 #25
+2023/07/26-23:35:33.771 b55 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/26-23:36:02.280 b55 Level-0 table #31: started
+2023/07/26-23:36:02.288 b55 Level-0 table #31: 4213 bytes OK
+2023/07/26-23:36:02.291 b55 Delete type=0 #26
+2023/07/26-23:36:02.292 b55 Manual compaction at level-0 from '\x00\x0e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0e\x00\x00\x05' @ 695 : 1
+2023/07/26-23:36:02.292 b55 Compacting 1@0 + 1@1 files
+2023/07/26-23:36:02.295 b55 Generated table #32@0: 221 keys, 3866 bytes
+2023/07/26-23:36:02.295 b55 Compacted 1@0 + 1@1 files => 3866 bytes
+2023/07/26-23:36:02.300 b55 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/26-23:36:02.300 b55 Delete type=2 #31
+2023/07/26-23:36:02.301 b32 Manual compaction at level-0 from '\x00\x0e\x00\x00\x05' @ 695 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/26-23:42:51.142 b55 Level-0 table #34: started
+2023/07/26-23:42:51.144 b55 Level-0 table #34: 2177 bytes OK
+2023/07/26-23:42:51.148 b55 Delete type=2 #28
+2023/07/26-23:42:51.149 b55 Delete type=0 #30
+2023/07/26-23:42:51.149 b56 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 752 : 1
+2023/07/26-23:42:51.149 b56 Compacting 1@0 + 1@1 files
+2023/07/26-23:42:51.155 b56 Generated table #35@0: 237 keys, 4017 bytes
+2023/07/26-23:42:51.155 b56 Compacted 1@0 + 1@1 files => 4017 bytes
+2023/07/26-23:42:51.158 b56 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/26-23:42:51.159 b56 Delete type=2 #34
+2023/07/26-23:42:51.159 b32 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 752 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)

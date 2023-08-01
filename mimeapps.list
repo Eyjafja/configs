@@ -1,0 +1,5 @@
+[Added Associations]
+application/x-core=nvim.desktop;
+
+[Default Applications]
+application/x-core=nvim.desktop

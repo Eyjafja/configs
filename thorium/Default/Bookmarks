@@ -1,0 +1,459 @@
+{
+   "checksum": "9314521932bbca2b17e577fe3132d968",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13181686449794458",
+            "date_last_used": "0",
+            "guid": "3e8487f0-8e14-4b43-9866-e2ce7a2cce37",
+            "id": "5",
+            "name": "Фонотека имени Айзека Азимова - Фантастика",
+            "type": "url",
+            "url": "http://www.fandom.ru/about_fan/haritonov_42.htm"
+         }, {
+            "date_added": "13155851450367506",
+            "date_last_used": "13312746109687954",
+            "guid": "7ec397e3-dc5e-4478-aaa7-a40ac3b7b360",
+            "id": "6",
+            "name": "Local envenoming by the Western hognose snake (Heterodon nasicus): A case report and review of medically significant Heterodon bites - ScienceDirect",
+            "type": "url",
+            "url": "http://www.sciencedirect.com/science/article/pii/S0041010109002220"
+         }, {
+            "date_added": "13181686411042335",
+            "date_last_used": "13333203434349218",
+            "guid": "083741bd-de7b-418a-85ea-c28a4e4366de",
+            "id": "7",
+            "name": "Текст песни «Этот большой мир» Роберта Рождественского",
+            "type": "url",
+            "url": "http://childrens-songs.ru/slova-detskix-pesen/etot-bolshoj-mir.html"
+         }, {
+            "date_added": "13156774711880605",
+            "date_last_used": "0",
+            "guid": "84b7cc1c-d9f2-45a1-95c6-1c2ae4aa3169",
+            "id": "8",
+            "name": "Отношение металлов к кислотам",
+            "type": "url",
+            "url": "https://www.chem-astu.ru/chair/study/metals/5_Metals-Acids.shtml"
+         }, {
+            "date_added": "13156776314454064",
+            "date_last_used": "13333390062985993",
+            "guid": "8773880f-ff01-4324-9758-9fa7929546f5",
+            "id": "9",
+            "name": "Кислоты",
+            "type": "url",
+            "url": "http://vsuet.ru/school-y-chemist/methodical/kisloti.htm"
+         }, {
+            "date_added": "13173478195467989",
+            "date_last_used": "0",
+            "guid": "875d3af9-0e23-4368-a04c-5853da2f8662",
+            "id": "10",
+            "name": "10 коротких сериалов, от которых вы не сможете оторваться",
+            "type": "url",
+            "url": "https://vk.com/@mhkoff-10-korotkih-serialov-ot-kotoryh-vy-ne-smozhete-otorvatsya"
+         }, {
+            "date_added": "13180950921162903",
+            "date_last_used": "0",
+            "guid": "83f95068-087d-4e0a-9c65-e28f3fc6e372",
+            "id": "11",
+            "name": "Предел последовательности и предел функции по Коши. Теория для «чайников»",
+            "type": "url",
+            "url": "http://mathprofi.ru/predely_po_koshi.html"
+         }, {
+            "date_added": "13283634356547672",
+            "date_last_used": "0",
+            "guid": "00390f11-b94b-420a-bdff-6b66e4e4e191",
+            "id": "12",
+            "name": "book/SUMMARY.md at master · rust-lang-ru/book",
+            "type": "url",
+            "url": "https://github.com/rust-lang-ru/book/blob/master/rustbook-ru/src/SUMMARY.md"
+         }, {
+            "date_added": "13302618503711156",
+            "date_last_used": "13333203440977222",
+            "guid": "3eecba74-7470-463e-bcf7-5942649be575",
+            "id": "13",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13302618503714348",
+            "date_last_used": "0",
+            "guid": "debb2beb-969e-468b-b95b-e55a4636f705",
+            "id": "14",
+            "name": "Карты",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13316272918549574",
+            "date_last_used": "0",
+            "guid": "9e3c6736-7c92-40e7-b54c-498cf6159ac1",
+            "id": "15",
+            "name": "Яндекс",
+            "type": "url",
+            "url": "https://www.ya.ru/?win=573&clid=2532524&from=dist_bookmark"
+         }, {
+            "date_added": "13316272918549584",
+            "date_last_used": "0",
+            "guid": "05e39612-5558-44ef-90a6-d59018f8ce56",
+            "id": "16",
+            "name": "Яндекс Маркет",
+            "type": "url",
+            "url": "https://market.yandex.ru/?from=dist_bookmarks&win=573&clid=2532527"
+         } ],
+         "date_added": "13330441075180701",
+         "date_last_used": "0",
+         "date_modified": "13316272918549584",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Панель закладок",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13330809100402705",
+            "date_last_used": "0",
+            "guid": "06dc89be-1426-4dce-8a02-5651f0d8be9f",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Desktop environment - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/desktop_environment"
+         }, {
+            "date_added": "13330895425235908",
+            "date_last_used": "0",
+            "guid": "f524d638-c272-460d-8f3c-c8920f87daa9",
+            "id": "37",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "device_xiaomi_vayu/BoardConfig.mk at r · raghavt20/device_xiaomi_vayu · GitHub",
+            "type": "url",
+            "url": "https://github.com/raghavt20/device_xiaomi_vayu/blob/r/BoardConfig.mk"
+         }, {
+            "date_added": "13330896784151410",
+            "date_last_used": "0",
+            "guid": "037495c2-e4bf-4404-9c48-f9d2226f9839",
+            "id": "38",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Info about vayu | LineageOS Wiki",
+            "type": "url",
+            "url": "https://wiki.lineageos.org/devices/vayu/"
+         }, {
+            "date_added": "13331152096745375",
+            "date_last_used": "0",
+            "guid": "3645ce69-617c-49d9-a152-ad65d3ad3df1",
+            "id": "41",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "lsp",
+            "type": "url",
+            "url": "https://github.com/folke/lazy.nvim#-plugin-spec"
+         }, {
+            "date_added": "13331309523297432",
+            "date_last_used": "0",
+            "guid": "ac756f20-b566-4e4d-966b-238f386e99e2",
+            "id": "42",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - nvim-neo-tree/neo-tree.nvim: Neovim plugin to manage the file system and other tree like structures.",
+            "type": "url",
+            "url": "https://github.com/nvim-neo-tree/neo-tree.nvim"
+         }, {
+            "date_added": "13331833447232359",
+            "date_last_used": "0",
+            "guid": "ebef6424-5d9a-4045-872f-5f149bc4ab76",
+            "id": "40",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "nyyManni/dmenu-wayland: dmenu for wayland-compositors",
+            "type": "url",
+            "url": "https://github.com/nyyManni/dmenu-wayland"
+         }, {
+            "date_added": "13332513274107185",
+            "date_last_used": "0",
+            "guid": "c6d82dd4-d4db-4f6b-b40b-c1f50b626981",
+            "id": "43",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "List of file signatures - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/List_of_file_signatures"
+         }, {
+            "date_added": "13332589897469666",
+            "date_last_used": "0",
+            "guid": "c2286e6c-e065-4035-b6e6-21a4db48f704",
+            "id": "46",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "pacman (Русский) - ArchWiki",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/title/Pacman_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)"
+         } ],
+         "date_added": "13330441075180739",
+         "date_last_used": "0",
+         "date_modified": "13332589897469666",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Другие закладки",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13242135690055690",
+            "date_last_used": "0",
+            "guid": "ad4b2e0b-045e-4053-b688-3a75e2506e58",
+            "id": "17",
+            "name": "Новая вкладка",
+            "type": "url",
+            "url": "chrome-native://newtab/"
+         }, {
+            "date_added": "13249419077849141",
+            "date_last_used": "0",
+            "guid": "c834f678-1a6e-44e1-a5eb-090a52d0ffea",
+            "id": "18",
+            "name": "Муниципальное казенное общеобразовательное учреждение \"Гимназия №17\" г.Черкесска |РДШ — Российское движение школьников",
+            "type": "url",
+            "url": "https://xn--d1axz.xn--p1ai/school/10917"
+         }, {
+            "date_added": "13311639703349344",
+            "date_last_used": "0",
+            "guid": "68240761-f98b-47e3-baf2-f43a80d4d29e",
+            "id": "19",
+            "name": "tmall - Поиск в Google",
+            "type": "url",
+            "url": "https://www.google.com/search?q=tmall&oq=tmall&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIECAEQBTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABNIBCTQ3Mzg5ajBqOagCALACAA&sourceid=chrome-mobile&ie=UTF-8"
+         }, {
+            "date_added": "13313623555810312",
+            "date_last_used": "0",
+            "guid": "ffa04836-c9c1-4d23-a16d-73c07509e44c",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "[Resolved] MI Unlock Tool cannot detect phone | XDA Forums",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/t/resolved-mi-unlock-tool-cannot-detect-phone.3663139/"
+         }, {
+            "date_added": "13316272918549624",
+            "date_last_used": "0",
+            "guid": "d614d398-bcac-445b-998b-3ab37d6069f4",
+            "id": "21",
+            "name": "Яндекс",
+            "type": "url",
+            "url": "https://www.ya.ru/?win=573&clid=2532524&from=dist_bookmark"
+         }, {
+            "date_added": "13316272918549630",
+            "date_last_used": "0",
+            "guid": "809fdf3c-704c-4577-ae09-621611daf8cd",
+            "id": "22",
+            "name": "Яндекс Маркет",
+            "type": "url",
+            "url": "https://market.yandex.ru/?from=dist_bookmarks&win=573&clid=2532527"
+         }, {
+            "date_added": "13316962404301767",
+            "date_last_used": "0",
+            "guid": "e6248b4f-bd58-4589-8334-a0170642d17b",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Чудо-инструменты из Tinkers' Construct. - Руководства по модам - RedServer",
+            "type": "url",
+            "url": "https://redserver.su/forum/topic/7912-chudo-instrumenty-iz-tinkers-construct/"
+         }, {
+            "date_added": "13318535551485982",
+            "date_last_used": "0",
+            "guid": "6d19434a-41ac-4eea-bb41-0a65d9c15407",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Всероссийская олимпиада в Москве",
+            "type": "url",
+            "url": "https://vos.olimpiada.ru/main/table/tasks/#table"
+         }, {
+            "date_added": "13319057664650103",
+            "date_last_used": "0",
+            "guid": "de2db78b-077d-43a2-af1a-418d61085cba",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "МПОШ",
+            "type": "url",
+            "url": "https://talant.bsu.edu.ru/blocks/olympiads/?olid=110"
+         }, {
+            "date_added": "13319057667153984",
+            "date_last_used": "0",
+            "guid": "f9ab7e7a-9c43-440f-943e-d05fdeec7032",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Продлен срок проведения отборочного тура - Олимпиада по информатике и компьютерной безопасности",
+            "type": "url",
+            "url": "https://ikb.mtuci.ru/news/prodlen-srok-provedeniya-otborochnogo-tura/"
+         }, {
+            "date_added": "13319057669512329",
+            "date_last_used": "0",
+            "guid": "8e87f9b3-9106-4f73-9849-ecb6da52caae",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Олимпиада Когнитивные технологии",
+            "type": "url",
+            "url": "http://olymp.misis.ru/"
+         }, {
+            "date_added": "13319128959028073",
+            "date_last_used": "0",
+            "guid": "bd6164c8-5fe5-4eb9-a701-c712b3418a9d",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Нехватка электропитания USB порта Windows 10: не работают и отваливаются, как включить",
+            "type": "url",
+            "url": "https://it-tehnik.ru/windows10/oshibki/nehvatka-elektropitaniya-usb-porta.html#%D0%9E%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0"
+         }, {
+            "date_added": "13325966199844356",
+            "date_last_used": "0",
+            "guid": "afbc2571-40e2-451e-ab59-668e423de45f",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Thorium Dino",
+            "type": "url",
+            "url": "chrome://dino/"
+         }, {
+            "date_added": "13328532295152839",
+            "date_last_used": "0",
+            "guid": "5e30e5c3-7c1b-4755-aa88-73c8fd740e0c",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Доступен браузер Thorium 110, более быстрый форк Chromium",
+            "type": "url",
+            "url": "https://www.opennet.ru/opennews/art.shtml?num=58738"
+         }, {
+            "date_added": "13329511119108339",
+            "date_last_used": "0",
+            "guid": "258d8da9-fc28-44e9-a91e-a234a5e8540c",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How well does Picom work for you all (on nvidia)? - Desktop Environments / Qtile - EndeavourOS",
+            "type": "url",
+            "url": "https://forum.endeavouros.com/t/how-well-does-picom-work-for-you-all-on-nvidia/33344"
+         }, {
+            "date_added": "13329596671313970",
+            "date_last_used": "0",
+            "guid": "d2ec5de9-cae3-4270-b898-14f1d7b3ca97",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Управляющие конструкции - Язык программирования Rust",
+            "type": "url",
+            "url": "https://doc.rust-lang.ru/book/ch03-05-control-flow.html"
+         }, {
+            "date_added": "13329769921106267",
+            "date_last_used": "0",
+            "guid": "c7590cee-b3c8-41b9-95da-46abce4621f0",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Polybar suddenly lost all format-prefixes - Basic Help & Support - ArchLabs Linux",
+            "type": "url",
+            "url": "https://forum.archlabslinux.com/t/polybar-suddenly-lost-all-format-prefixes/5982"
+         }, {
+            "date_added": "13332598023360306",
+            "date_last_used": "0",
+            "guid": "45409571-f4bf-4be2-b6ee-45c960cad1ad",
+            "id": "45",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Сигнальные флаги флотов НАТО – Google Поиск",
+            "type": "url",
+            "url": "https://www.google.com/search?sxsrf=APwXEdeFSEVfv1z48ARckKiltm7atiOJQA:1688112734553&q=%D0%A1%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%84%D0%BB%D0%B0%D0%B3%D0%B8+%D1%84%D0%BB%D0%BE%D1%82%D0%BE%D0%B2+%D0%9D%D0%90%D0%A2%D0%9E&tbm=isch&sa=X&ved=2ahUKEwj21oj_xer_AhXRrosKHTcMDQUQ0pQJegQIDxAB&biw=393&bih=784&dpr=2.75#imgrc=RrGO_gwY8Ps1rM"
+         }, {
+            "date_added": "13332690779798808",
+            "date_last_used": "0",
+            "guid": "d544f9b6-fb82-41ad-9274-0cc3daad5aab",
+            "id": "50",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Decimal to Binary Converter",
+            "type": "url",
+            "url": "https://www.rapidtables.com/convert/number/decimal-to-binary.html"
+         }, {
+            "date_added": "13332690783648810",
+            "date_last_used": "0",
+            "guid": "8a315f70-bce3-4b12-9643-26eb26b89f4b",
+            "id": "48",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Hex to ASCII Text String Converter",
+            "type": "url",
+            "url": "https://www.rapidtables.com/convert/number/hex-to-ascii.html"
+         }, {
+            "date_added": "13332692891027682",
+            "date_last_used": "0",
+            "guid": "77459267-4777-4cdd-8838-9c9b4ee04f88",
+            "id": "51",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "dCode - Solveurs, Crypto, Maths, Codes, Calculs en Ligne",
+            "type": "url",
+            "url": "https://www.dcode.fr/"
+         }, {
+            "date_added": "13333887182989217",
+            "date_last_used": "0",
+            "guid": "2052b915-c692-40b1-8898-91b79ad4bd06",
+            "id": "49",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Новая вкладка",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13335046103847559",
+            "date_last_used": "0",
+            "guid": "51906421-043a-4eaa-9d05-5ffb9ea1e925",
+            "id": "53",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "bigscience-workshop/petals: 🌸 Run large language models at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading",
+            "type": "url",
+            "url": "https://github.com/bigscience-workshop/petals"
+         } ],
+         "date_added": "13330441075180742",
+         "date_last_used": "0",
+         "date_modified": "13335046103847559",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Моб. закладки",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cu8BCswBCIiBAhLFARI8CAISOAoGCgJibRABEDMaEgmAsfEElAEGACGAsfEElAEGADIYChYIAhGF1jUVlAEGABgAIQAAAAAAAAAAIACSAX0KNAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJ6qg2FZQBBgAR6qg2FZQBBgApf0M3FZQBBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgmARqwPlAEGABGARqwPlAEGACmWpTYVlAEGADCAjbH9wLKAA7oBAggBEgAgASoYYWE2ZFRmSEllZXBpbFEzRmhUb09nQT09SAMS7gEIMBLpAQocVWZ6K3dyQTJ3Q3hQYVMyNGlrbXlDZWw1VEE0PRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wcURUMWRDa25YOC9PNzhmWWRaeWNhcWMvRThWTXpWZ3NaMVZLaWk0Q2YwVmxPbkRySVMybW1uOHFPcHZVbDVkU0ZuYXFtZz09GAAgACgAMOrcoI3L7f8COKDL14yRMUCgy9eMkTFKHDlSa3J2UEpqbGdoZzdDbE12TjBRYkZsOVdCcz1aISIf//+aNGdPZkVxTDRFWXNXYUNyZGxJeWs2RGtFUERvPWVVdxFLEuwBCCoS5wEKHHdER0dSNHEyMlo4M0c1QTdTNWV1NlZoc1JzST0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucHRvT3dLVzIwb1RGVzF2TldZVkFRL1d4QVN3NldhVFhlbDc3b1Z3Q2NzbVBPR284YTltSWt5YkhZOFluZ0NwSDVrNmozSHc9PRgAIAAoADDjhJDBscX/Ajjhkob6izFA4ZKG+osxShxmSGZtenVseVNUNmtxQVljNXY2dFZ2eFVsMXc9Wh8iHdpFTzlFVXBYdnFqSC91bEIySHhCbG9tbzZwQ1U9ZSjQ4akSrQIIBRKoAgocem9seUxCSTJYNmllcGJ6S003TUVLQlJGZ3FZPRKmAVo6QURxdEFaeGh6akdvd1BEN1FrUkxCT1dlcmlmYTNMVTd4RUxhdWEzSXZaOXdlMncvTHpoYXVzbFB5OXdFT2ZjcW56TU5NN0xuQ1FDZFJWTnRxYTkzbG1FckVkS2xoVDRFRXU1MDJwQ05kTVV4Um1uQ2xsSnpsa3FZbnhxb1RVN0JoemNrbng0c0hLY0FyWHFNc0E5UWNJVzFPMWR2WDlXOTR3PT0YACAAKAAw5o6084yF9wI4x8PPlIQtQMfDz5SELUocMGpvTm9tRFlDZVRES0hLUGhQM29idjNtdTVrPVofIh31dW9zSE44Wlp2a1NwYkhOdFBXMkpkeGdTQkxZPWUAAAAAEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaeVYvcEs0bkRubDQrVmFxaEI4ZWl6Y1lIL0dNN21yZitDMVJjRi9xcDQ4UkJmSjJXY2Y2UUttQVhBVVQ5c1dYMGF5VUxIdWlRMzBsZzgrZDF1bjV0NzNKRERhUlE9PRgAIAAoADCyr/C2jqz/AjgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEuwBCBQS5wEKHHlHYkw4MDNLQVVydGx6TVd2amVFRmJUWjgvbz0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucFpBTnpXQmk4USt6ZkU2T3NSaXZpVm1rUFB0TUNndVFxWXZTY1JBaUdBb1lXc3d2RXN6Smp6aUZWMWh4UWFPODdxS0ZWdEE9PRgAIAAoADChxfHO5MT7AjjirdyIyjBA4q3ciMowShxILzcrYytudjlQbGUrN3hyRjdNYXVBdEdpVTg9Wh8iHd1ZcG9hczFDRW5RZlVpYktHZmhzV2NuV3licXM9ZUzGEpAS7gEINRLpAQocWlhCWmh6ZnFjazg5YVVwakx6VWZDR0Nac0RRPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wSm5jb1NJaGMwM2xETkFpSDJHcFBpbUhwZFFuRkQwRTNhMGZUWGpkSzFjbVhFY20xRGZOOEFMWWp6NFY4RzEyNUVSNjhidz09GAAgAigCMLXmmLiRsoADOKj25O+ZMUC19uTvmTFKHE1weGRkay9kU28xRE5ySlIwR2M2YkdidTZzRT1aISIf///zZWMxdU5ZNWEyVWttVktoNTRsK1NHY3JqbktBPWVdR4+DEuwBCCsS5wEKHGdNNjdFUTdtRzJMMlgycjU1YVQ4UHdVMjdoUT0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucFo3WVVZZElSY2lGMDFJWUVnZW1CZEwwMDdJTWFZSWF2VkU4czg3TXhvQVJuS1ZoV0dSUVFPSWdPNnBxSG9WdEpta3FhVVE9PRgAIAAoADClkaHqtej/Ajj7oYW4kDFA+6GFuJAxShxQVnJDalF1YW11cHRYemdxYWd1SGJ5Y25Cenc9Wh8iHfZtME1UVzVsbXJZdzdmSTk1R2F4aDZUdWdHSnM9ZeEuWRASrwIIBhKqAgocTjlibE9yMzRnVlloUTFlekR0dm5IZjU3bG00PRKmAVo6QURxdEFaeGh6akdvd1BEN1FrUkxCT1dlcmlmYTNMVTd4RUxhdWEzSXZaOXdlMncvTHlNalpoYm5xT05ZRVRTeHU2QzdvWjNkSjVEUXRYR2JOdFVsQU1xc3FtRGdHQ0QxN1lFTDVnZVlOQWVReGVYbTZBUFpCcGZPZWMyVDBlTHRlWDF1RG5NNUl2aE1ab1dRQVZOVERnWGRtaHpEY2hkSWNRPT0YACAAKAAw5KaZtfvy/gI4ysPPlIQtQMrDz5SELUocNU0yRTZsWDAweUZ3SCttKzViRkZtcXUxWitBPVohIh////9rSEZ0b1Q1Vnd3RTl2eTJvcnVjUDVFNjdqWDA9ZUt/55IS7QEIMhLoAQocTlVkUE5QTW9ycXlteHlEWFhITTludkdBTFVVPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wL25EdFNZU3NUbjVWM2V5K2x6c2YzbTRjK0ozYnQrY3Q0S1RwL0EvZEZmdGhaSXlLLzFQaUNZZXIyMWVSellFUDRqeGFLdz09GAAgACgAMMzTtIvL7f8COJat14yRMUCWrdeMkTFKHE1yMWdCM2xkK3NpK1pKTTNCRE11Rk1QWUdIOD1aICIe//81Z1F4ZHFReTB2d2pnRHUvcFNzOG1oOVlUbTg9ZVV3EUsS8wEIDhLuAQocbFNEekNwb3hNSElBaUxLekhibEJTa1hzNWJVPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wTWpBVHpIYVNyeGtxSVJDK2VBcWNZMThhVjU3Rnk2TTBHZ0UyQzBrMUdFcXh3MHF5eGNUNmtvUERPVnAyRHZ2cHhrRmdpQT09GAAgACgAMJzR+J3Om/sCOLeurZehMEC3rq2XoTBKHHFPUmYrWlh1b3VXSzFZT0xWeUEwUEJTSHlRST1aJiIk/////wAAAAZ6MDQ3ZXdaakZUcm1taHNOUnI3K0d3UVlyK0E9ZaT76JgS7AEIGhLnAQocRWRwc0s3UE5PNFpwWTdBc2ZSak50c2RCTGhnPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5weDVPenZLaVYxeUYwVDcwcDlrQVBWczlKaHgrOS9nL09Dd2JYZ0Z2VkpYb0xGWmdNbmc4ME80NldSc3ZXeVUzajVjekNndz09GAAgACgAMLr40uHn4PwCONKY9KfeMEDSmPSn3jBKHEk4am1xOVkzWXJxOGNVRGtaWVZYZlNqRytIND1aHyId/2drbFlGVnpTWXJMQXQ2Q003aUpDS3RxUXloND1lGiPUhBLtAQgcEugBChxuRTA2YWMxZmlCZUpxUTQ2WnFBbC9xRDhjTGs9EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnBRajBLTHRWbVJraE5yT0haSmh2U0loTTRwdGNkNGlSM3huRjRTY1c4WGRnekJuWHJCejJCRUNrQkI2Z2U1WWdXSVdNeC93PT0YACAAKAAw7fK4tvHi/AI4tMDzyd4wQLTA88neMEocNWNQSFl6eElwMHZrQ1VlcDJpNUorYnhBRXBVPVogIh7/u01CMHo0ODg3NHlYc2h1eGNLUHRHK1l4MmNRQT1lg3fYhhKvAggHEqoCChxwMDBxSGJPWXRPZmZ3RVY5MUxpTXczMHJCUFE9EqYBWjpBRHF0QVp4aHpqR293UEQ3UWtSTEJPV2VyaWZhM0xVN3hFTGF1YTNJdlo5d2Uydy9MeWFJbWZtM0NPZ3lZaW43V3VOYndqN2s5ZHBrMWlXaFl3TGJYcEFkbndHL09UbDNmUHBFelpnSEdqQ25ib095ckVCYStOVjh1Q3Z0SDZHVml3aHVRUjZFZWQwaUsxNkp3S0hvNUJBQTU5c0NRclEwK0E9PRgAIAAoADD+qbzO3v7/AjjHw8+UhC1ArvjapZMxShxySm5qemFzVnBRT2txd1N0WUgranllVkhFNnM9WiEiH////3hNaTR1WEJ6S2JkOXhaR3k0RThXTEVIS1JYYz1lkPt2XxLsAQgoEucBChxlS1A2MExrNGRMdTBBcHRlUTFKV0JEN3hmbk09EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnBRYUpxYWlRQit6Y0FZVzdVL1h2VUk2NW5SOVBhaFM4SW9iL0wxM20weU5lWWsyVS9TTVBTb0E2VGFWVG16Q1kvUy9oMlBBPT0YACAAKAAw7PXzxdPt/wI4wPbv840xQMyE4o2RMUocb3o3VjRVNGZic29ERjg4OGpzOVRpWGJZcGtBPVofIh3tY1pQcjlJTkdnRXRxeldmSlErZk1STFVpUDJ3PWUIDEouErUCCAoSsAIKHHZzK2Y0Y0kvRGQ3aDJVSVB2eG5CY0tuUVhJVT0SpgFaOkFEcXRBWnhoempHb3dQRDdRa1JMQk9XZXJpZmEzTFU3eEVMYXVhM0l2Wjl3ZTJ3L0wzcUNBZ0VIWG9VRXV3ZFRpUDlQRXBxanREUFlyeWs3QjdVcjU4d1BYc0ZrckZUTExDcnlqNy9lNUNZcEdpeTZYV2xKNC9JeEVTV2Y3V3Vpa083OGVwamY0WTFOc3F2ckJiVDZVdkxGNXNVVFhSMFcydz09GAAgACgAML3G78j+n/4COMzDz5SELUDMw8+UhC1KHGhEdFpWMHNnWldMZVNzRnVPRU9MVnpjeU5SUT1aJyIl/////wAAAAT2NGcwN1dXa0pVTURpRDFWZC9ScmtOZ3pwQWpFPWWadLc1EuwBCC4S5wEKHHNVdERLdGZKYSsxVlpvdlI0YThqdzJkQk9aMD0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucFN3R0V3bzhwaVhIaWcrdnJiellxR2dZcU1TQ25UUUxBVjJIRWRtL0plRG05Q3RDeDZBdGdrcTg0ZTZzUGdsK05uRVVXK2c9PRgAIAAoADDlr4Gj0+r/Ajj9/cnckDFA/f3J3JAxShxOWjQ5cldWYnhrK2dqTVdFaThWYzZhbG41QTg9Wh8iHftZWFBrSlNoeVBsNE1PN3p5dmwvaUFUbUYxaTg9ZUthCrsSqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp5dkJzYmJtYlhsUGI1RithSkkyUTdDV0hlZGdFQXUrTGI4YklsOGdZSG5kbmVlTnlQbWY3RWVhR29oWlZ1T1JnaXozR3lXGAAgACgAMLKv8LaOrP8COABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAS9AEIDBLvAQocNFk0czFlQUVOdHBuOVpsQmZWRjhCTklmY2dVPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wVzFmaU1nb3lwWU5WcGNGYjMwYk9YaHg4alBHTGF0M3FlYVlGQS9TS2lKdTFoU0FITXZxTUI4bHhrbWZIRCtJb2FXRENpQT09GAAgAigCMJ/AzcLFp4ADOMTy4KzaL0CK4p3CmDFKHElTK3UwSTlubWNtUk1UT1kxQjBoSExBQjcydz1aJyIl/////wAAAAX6eWZPYTRCcCtRaFgxQUgrd1BYa0dhTGdVNTFRPWVdR4+DEqwCCBISpwIKHFdNbTRxbW1OZERaNW92REhaOXR1bEhvRkJxRT0SpgFaOkFEcXRBWnhoempHb3dQRDdRa1JMQk9XZXJpZmFDNU1oK1J5NXRXamlURWt6QzIwZmR6K2dUSGNvdDVOS00zNWk4cUo1ZHVKdW5vZ2RvMmhRZkE2L2hPT050alYyOHh5cCt0RXR0ZFhISGFTSFR3NG1ZYUxDZ0dDVzkwMDE3S0ZZUlcwZVpIZjJ6TUJaYzV6Qy8xYjE5bFgrckpTaFJpZFU1dz09GAAgACgAMOaOtPOMhfcCOIWC0vHaLkCFgtLx2i5KHE9aY0Jsd1IwbFNqc0RNaHYyZ0JmbVNpY2RIRT1aHiIcdmQzcmMybXUrbmZySU5sbitJWmxMdkRWUy84PWVBVfxaEusBCCUS5gEKHHNncWxxbVQ1UGNVeDZvOGd6eUZwdlNwVXNLZz0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucEswejZyN2M2NXNHV1AzbTI1alJKYkx5dUY3M2RxVitNZ3FEc09xazR1NVE0bmQ0WERFMmlPQU1qdWtYdUdZMjQ5bnM4bVE9PRgAIAIoAjDNyp/1qrn/AjjUzcu0ijFA383LtIoxShxkMHFjVzB1UkpkOEJ1SG4ydDNoVUZPVGYrYmM9Wh4iHFZtU0FOaHovMkE3ZllCMmtya01MeUsvSEUvND1lKNDhqRKwAggJEqsCChwyanJ1MDNDV01qSUxQeGdXekR6RXEvSUhYRVU9EqYBWjpBRHF0QVp4aHpqR293UEQ3UWtSTEJPV2VyaWZhM0xVN3hFTGF1YTNJdlo5d2Uydy9MeGc2dVF2eVRhcXd0SXlLNlp5OGNpaHh2WVRXUnFnNUt6N1k2UDVIbTRwTnp6SWdNakxOTzVtdjhoSkx5amRnVU1wM01sdkpVb1o2RDg0U1BMSyt5bEs1MCtOTDVHUzdTL3FWYXJVQzl4UDdJTTJZeHc9PRgAIAAoADD5p/iP+IGAAzjKw8+UhC1AlbCQ2pMxShwrajJKaW9oUStHSXFFMVp2QTMrRmdHM3RKOGM9WiIiIP///+1zRzI5ZjZUcnhjaEhzcGpYMS96L09kQWM4Mkk9ZTPxg8sS9AEIEBLvAQocSDhFR25LVzlCTnJyVUg1RkYzU3h2Q2t2alU0PRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5waUtEWVlkYnQwcFd5a1p2Mk1rclBlR2VScC9JRXU3YUdNZXJOcEl2djd2Y0pWQytJMElaeDhpTlYzcjhkRlJsenNMYjVPQT09GAAgACgAMOeuhuPhj/wCOKvZhPjTMECr2YT40zBKHG5oc3NlUG16Rm1QaXdZTDljU2FjOC96Y1dsMD1aJyIl/////wAAAAbeMGxYeG1GT2JmTXZ3bWw0R3Nza0Q4cGJnTmFnPWUAAAAAEuwBCBsS5wEKHGlLbHc1WnVFMno3ZGhVMitKYUVQTFhFK2ZXaz0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucG0rS1ZmSm1EVzNXM0Vxa1dscTJYYmhaOW5peDUxQ0kzcnhNaGZDNk52S3VHLytsWVdYb3hHcUdiNWhLazJrNmp6djR1TGc9PRgAIAAoADCkoePi5+D8AjiIq/Sn3jBAiKv0p94wShxMYVhqNmVqUFYyaHd1MjhPUFc1T3NxZjdvWTQ9Wh8iHf93dXl6VEZBb2NTQVlzMUxVWWhvYkpQYk5lUlU9ZdBz6fQS9AEIDRLvAQocblhoQTdlVHZIM2dWS08rT1hNOHE3K1l4Vm04PRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wTFRtcXZscmFic2szUFZQanRIL2NYWHdodnE2VnB1dStOcVJieFVpSnZ6djBRNFJ3ZitvYzhvL0ViQ2IvZSttWURKSTZCUT09GAAgACgAMP6pvM7e/v8COLeurZehMECu+NqlkzFKHEJqZzVUS3FjU2VaVjZ5YVZqU29ORlduQkJhbz1aJyIl/////wAAAAX+VEhORlZUb3IwdHdNZHVTQkE5Ui85Nm9EUVdVPWU4+TkzEuwBCBgS5wEKHDNVVjVRVE9OSjh2dlo4SjZsbllVcE5wVk1kQT0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucGt4NkNWT0FoWHROd0s4aVU1SEFtNjhZZTdpczBhMW5Pc1M2K0MxMGkzVEpxMWNpZnNQUVBqUkpBWExTZ1pDeGxlWXZjMkE9PRgAIAAoADDnscngztH8Ajj+4/iu3DBA/uP4rtwwShxocTBUT3E3MjlLY2craklmWGJYdUJaUFdGams9Wh8iHf1vS09QZnNsb2d2VjJPa09MQjgzeUZISVc2ZDg9ZbH7AJASrAIIERKnAgocMlpwZkVSVmd0aHZrSVNqSDV5OXdianJjY1JZPRKmAVo6QURxdEFaeGh6akdvd1BEN1FrUkxCT1dlcmlmYUM1TWgrUnk1dFdqaVRFa3pDMjBmZC9ZbURkZmZRcjVKMWVQcWtFa0hQMWxVRlBnWXcwcG1mQm9yY2loNGFzajAveE1oUDJHcUdGK2xVTE04cy9NcGV5dXZhOEJQZHV4VGlKcmJUR1o5Qnd5dGQvekx1eS8vc3ozS1dsOU5ERFgrMzlvaWl3PT0YACAAKAAw5o6084yF9wI416bT4L8uQNem0+C/LkocbXBIN1pYcGpGM1NsT1poQ25FbmxQbUpHbC9BPVoeIhxpY2I5dVM0MXo0OXVHZmJRanFUU1pQSExqVnM9ZQAAAAAS7AEIExLnAQocVmViSmFObVVjLzJWNmJzbTJuVDJHTlBWZ0lzPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wMGxqSWJTTjh6Q1VRSU10WEl0V1BGU0RVelFnd0FCRHJFU0FvTXVKR2dhNG1FR2Mvb010SjJLdUxpTTB0ZSs0NnBtZDRKUT09GAAgACgAMMaS66rXsvwCOLXO39bCMEC1zt/WwjBKHDlJQ1I0cEJYUGxQb2R3RU4yVGMyR2NqTjZJQT1aHyIdu2JPRXhoSVA0ZWc1ejZRZ0liWFpsODJmSWNIYz1lFk9LZBLsAQgZEucBChxzNDlBaFNFTWVxem04ZWhuaTZ0cWtxYXpLejQ9EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnBCdVdELzBCZGRDZFhuRHFOOU9ZNy9jUDArSWtSMENabVMzVCt3S1ZrcTdPYUFoeTFOWXc0VHl1Q1pKd3pldWxSbFU0ZTRRPT0YACAAKAAw+tC54Ofg/AI4ioX0p94wQIqF9KfeMEocOUxDblh3cFpPOVhPYWJpY2svL2trZUlUK2tBPVofIh3+UFl3a3A3ck1rZHFFTkNiMU11ZkIydmd2YXMwPWW54ykYEuwBCBUS5wEKHFpBVEJFbjhiOHhOTmV5QnN3L0dsZElsbUhLYz0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucHh1VFF2b3ZTRVExY014aENHeVBSVFBEcmFCZ1IzR2RWblFDWXl0bXFIY2dHeDRHd1FHTU1HY3Y4ZE9ya3cwYUxwNEF3YWc9PRgAIAAoADDnrobj4Y/8Ajir2YT40zBAq9mE+NMwShxnOEJGd1NxMnVyU3VTSHVCV0ZSMUJYbjQxZHc9Wh8iHe5ONzkxSUsxdHBiQ3U3SnFpaWFGRUx3TlJvejA9ZQAAAAAS7AEIFxLnAQocYTVsVzJWUDdBVkxJbCtHYUxId0pzOXBYYjZnPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wYUlsTEd4T3hRYW5FVUhES1BJcUc1YTVqM2xKRTREa0RpUXRreXd4U3VZZFYxMEVJZ1Y5TUtsajRFTngvM0JtQW9YcmxKdz09GAAgACgAMJvpmKnqo/wCOM2/58DWMEDNv+fA1jBKHDlpanlZVzhNcjU1Ky8rczRVREtXNDdVNnNDOD1aHyId+3lvWHp5QjY4dkdLczk3d3dOcWJaTi9lNWE1az1lt20kFBK1AggLErACChxzV3RGZGVGSXJXWWtzM3J2OFFaUXBFOTlMNkk9EqYBWjpBRHF0QVp4aHpqR293UEQ3UWtSTEJPV2VyaWZhM0xVN3hFTGF1YTNJdlo5d2Uydy9MMUFyeFE0N2N2Q3IycE5QY0Jkb2hjWE5rTVVqeFFScU9pU2Z2T1hOck9QQlorRHpxa0VWRmQvUDRyRVplVkgzelZ5dnVHY2hsRFNOVWFXUG1lSU9hMGM5VzlMUHN3OW5YbnVzS3c4NkpIQUZsRkNVdVE9PRgAIAAoADC9xu/I/p/+AjjMw8+UhC1AzMPPlIQtShxNK24wejRGdXZ6emRjMHhaRkNoTzhnY1ljYm89WiciJf////8AAAAE+3FQbU9UbUNaQ2ZLVUthS1phK0pPT1I2SkhIYz1ldvzB9xLsAQgWEucBChwzU2VIS0kxQlRCV0NOMHhRQldVcE1TVDJoak09EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnA5N05haFIveWRqWGNqTklZVWppUW9zb0Z4R1dXSXZHZTJsanlRQkdJT09zc3VraU14K2pRZjVDaE1Qa3NUTDVCMDEwbHB3PT0YACAAKAAw566G4+GP/AI4q9mE+NMwQKvZhPjTMEocWjN2UTFlNW5LYWxiMXJ5L2llZUpKaGduMGZjPVofIh33KzlqTFRwMXhncy9tUCtLd2kvTW1xU2JMbVQwPWUAAAAAEusBCCMS5gEKHHQva0RtKzVwVlR6UkNCOVZZdzBCT0t1QVFzdz0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucFZRSnd3bi9Mck5FWElhUHV5UkF6MHJ0M0pTR2RZNnNOZXNta3FmTENzODJsbWMxc0VLa0MwS1FkYUVmdjdQclJvRDZLWVE9PRgAIAIoAjDN4P2p6bb/Ajjz4LaLijFAgOG2i4oxShxoUzlPaFlxeWY1bXZnaW1oL0FSTGdBWkdNSkU9Wh4iHDMzL2VNU0ZPVWtkOW0xWHBFc3AwajNodzBIWT1lS2EKuxLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnhrT3ZFbEc0eDNEZ3g5cGVGWGdreU16bUtRL1dZY0huSnBXeXVnZG96Wk45d1IvbkoxSnJPcmNMdU5iNVIzWFdOWGQ1UTdlUTI2aTIyQ1B4QXdocG5Bb0Jkd0JBPT0YACAAKAAwsq/wto6s/wI4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKwAggIEqsCChw3MTBlUksvcndhdTBWZTY1eHdmeU5WVE9FZFE9EqYBWjpBRHF0QVp4aHpqR293UEQ3UWtSTEJPV2VyaWZhM0xVN3hFTGF1YTNJdlo5d2Uydy9MOEw1aFF5L2lLczZnWTFuSVAxMHVhVGE5MTIwOFpiVUpxK2ttMVFLYzUvd2Q2L1NGUnp0YmplL2tJMWlCNm5Vay9STTFZdWUyMjJyc3ZvNEtxUGlaNG1PNjlvRlYyOTFSWVBRZEZuSmtTS3pMVy9sbGc9PRgAIAAoADDkppm1+/L+AjjKw8+UhC1AysPPlIQtShxqMFdJRWhmd3dkQ3JLU0k1ZDdsL3JWTzByVEk9WiIiIP///9pHLzArYUdSVm9RelNJdTF1QklGQ2dWSk9FRTQ9ZaMPO/MS9AEIDxLvAQocZ29EWm95c3FXNW53Nk9KL3ZQUzV1ZzdkTHBZPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wK0xBSXBtaERVQk1GTnYwaUxMbWxvcUYyN1JEbGxUVURISmZaZWNyM1VOamRUc3Z0MGxucDV2QUxSWDhKOVVzZmhxUXFsUT09GAAgACgAMOeuhuPhj/wCOKvZhPjTMECr2YT40zBKHGdCcHkyTTgxS3JCby9MVnBYRGNERkJJTTRhRT1aJyIl/////wAAAAa9ZDhCS2lKMm9nZjJnbU92Z1BDclRVcjFtZXZVPWUAAAAAEu4BCDES6QEKHFhqUE55Q2JaZVZVSzBubzdyTHBlZUdWSzFGYz0SZlo6QURxdEFaeHZwVlRuT2Z4TlMwRXFkaEcyWmVucC9iMWgzeUFWalFxSW1CalNHZkNtWjdoeExjQTd3V3VlcGN3RmFpYUlGNGp1WDBwUVZlVXFxNXgzV3cvZUU1YngwMU5xV1E9PRgAIAAoADCe34+CtJCAAziNgZbHlTFAjYGWx5UxShx3MHZSWU1ySUFRL3dOODk4QnlXZnVvcDJMR0k9WiEiH///5jJCcEdVaWptVTJLb1hrWlBMS1poYUg5bWx1ST1lAAAAABLtAQggEugBChxzTlZjYi96b2dvL1RsQ0dCQ29tRDYzUElOU2M9EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnB2S0ErZjRmbEozWUtJZ1E3ZHgxeEwxSHFZaStpT3pDdHQ3QjZvMVJpN1BkTlBVbkh1NUdMVXhmOFZHb2ZMUFZtQ2Z6NFh3PT0YACAAKAAwkOeVxcST/wI40vqlyYUxQNL6pcmFMUocN3hiM1hzblFENVFVOVcrVlA2MUY2YTBZTDNjPVogIh7/+0tDTzBBNDdVMUZyMEhzZlZUb3htMGNubGhBYz1l9bTT/BLtAQgdEugBChxwRmtiM0xTMjdGU1hzYmxKUjNHbkd5L0s0Q0k9EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnA1cXo2SGQ2ZmdFSzdORndycXA5L3RKWUhlNjlnbzlJT3ErcnVzelNUbUFwR05GeHk1cDF0aEFsdzFVbGVQZWg1aUdML09nPT0YACAAKAAwyr+tivCp/gI4pMiThvgwQKTIk4b4MEocRGdyajlNM29mYUdncUxDdVQ4TWh0cUdYVHo0PVogIh7/3XR5ZlJXTHg4N3FvYmdzb0tRdUhkSGNuQng1Yz1lAAAAABLtAQghEugBChxtT1JYRTJHZDVVZWR1SlpKZDFCK3hheVhJQTg9EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnBoenNWSC9JM2hYVEhlWnBMWW9vcGpQUVQ3ZmRwdHAxZFdlM1F4M24wdFNmbEticFhlTk1RQlhzWWVxMWhtSE9DR0NHUHRRPT0YACAAKAAwvcOJ98mY/wI40qT0m4YxQNKk9JuGMUoceVBoYkFZekx2cEh3d2w1OStMejBCVUZsNGtNPVogIh7//W5PZGxRckxoZi90cGJ3NVBkT1lzaDQ5UTdFMD1lz5rlKBLuAQgzEukBChxyaGpTMCtiZm54SUtSenl3S3VsNkNTRkMrQkE9EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnB1d3E0dlVpWmRxajFtZFlEL1JCWUtJZlNTWWx2U3lncUE4UU9MeFhXMmFmNWw3amVLWWNTdnY5OXBER0xULzAyM1BwZDNBPT0YACAAKAAw/7rQu7vu/wI4k5vYjZExQJOb2I2RMUocRHNhcmR3djBCcGdFNUFHbmlnK3phSVVJd1FBPVohIh///81SaTJUQ3VoOE1FdmhKMmtMN0lSRDN1aVMrbDg9ZRMHX3sS7QEIHxLoAQoca3lpVHdTbzNiRDV4Y2EzajR0dmxHSUtFeHpJPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wYzdOenU4cVJySWc1cVIxanFWcHRUaXowQ1Mrb2VlcnVoU2lMeUh0dFVnYzgvcUozWXpHZjMycU9sR2l0VDBycHgxL0lTQT09GAAgACgAMKqiveuFkf8COISiwKCFMUCEosCghTFKHGt6NzJoWUx1ODdleGpZYlVMSnpRUFp4c0hiST1aICIe//dNVlM5YjVycjJPb1NQVDhHTVlhUnpnZmFzZGc9ZeA0H2wS7QEIHhLoAQoceDFudDRvZ1dLUWt2TnBYd2d0b3N2eE5iSGkwPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wZURFdWxibzFndlQ0L3BmUWJNbWdNd1gxakc3WW1SKy95RE0xSHFkV0VlL1FDb2txZGZDemdKSkkxZ1piWEV6c3ZwMStsdz09GAAgACgAMN3/xMLH9P4COPDL4c2BMUDwy+HNgTFKHFc4eHFXVnVTL2NGdG1WNisza2dEeWRma0Y5cz1aICIe/+5DM1pjbmpqRzZSbW9ReTdTUUxwZE01cGxobm89ZYWouDQS7AEIKRLnAQoccHZwSCtYajd4UUIyOW1LYm5PMVQwWno0UEJjPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wdXFYT25mUW1HejNwM1JiMGExQ1AxUXNCaUZVUHBzSDdvWFdQY0c5UzhKMFV5L3dieC94bWoxdXAvUUtRTVhXeU9lLzdRQT09GAAgACgAMMPnnIbnwP8COOnL/a6LMUDpy/2uizFKHGlna1FsK3RNbnVqbVdwZDVmV1h5NDkyK3c2RT1aHyIdtUxaeHZHMmdYWWMwOUZpQXVUeTNQSFNvU0o0az1lKNDhqRLrAQgmEuYBChxvQWVSK1F4dkQ0clJ6NzRCbjNtVkIvcnBFdVk9EmZaOkFEcXRBWnh2cFZUbk9meE5TMEVxZGhHMlplbnBPR1NnWFNrSEd0N1RRV1loOUFOMS9zVHNrNDdPVUdFbVZjVDhuTWpyNzlCNjQ2VGRIVFY5ekRkak1rbUtwaG8vUjk3V0dBPT0YACACKAIwua2e/a+5/wI4l8aetYoxQKHGnrWKMUocRVEvdks2WGFVUkRrQVNXUzJsYzFjWDZ4bFhZPVoeIhxqdk4rLzhKbjB2ampPT3dRRVFUTncyTjNFSmM9ZWw2hvgS7QEILRLoAQocMzhlRHFFa1hCT3VQeTgxREJ4RzdiRkhHVVVFPRJmWjpBRHF0QVp4dnBWVG5PZnhOUzBFcWRoRzJaZW5wLzZZQmI4S2FkQkNTRFFHNHhMREQ1THBzajlZOVJBYXdnSE5Oc3pZYnEzeUo0dlYwWnhrZjA2N0Rmc0lacUxLajAxNStXdz09GAAgACgAMP3wio2Y8v8COMH5ueCQMUD77onYkTFKHFNrbGdDcjN3c2MrWk53cU9KNVJJamRKc0JDdz1aICIe//5vV3lqNVFuNldYUlA3dWpaaDczb2NKNzdXZmM9ZRAw/+QwATgA",
+   "version": 1
+}

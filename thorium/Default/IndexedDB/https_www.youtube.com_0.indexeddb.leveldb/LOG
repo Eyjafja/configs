@@ -1,0 +1,12 @@
+2023/07/31-00:16:04.405 58e7 Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/31-00:16:04.416 58e7 Recovering log #4
+2023/07/31-00:16:04.470 58e7 Reusing old log /home/Eyjafja/.config/thorium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2023/07/31-00:16:55.258 58e7 Level-0 table #8: started
+2023/07/31-00:16:55.289 58e7 Level-0 table #8: 1285357 bytes OK
+2023/07/31-00:16:55.293 58e7 Delete type=0 #4
+2023/07/31-00:19:14.166 58e7 Compacting 1@1 + 1@2 files
+2023/07/31-00:19:14.436 58e7 Generated table #9@1: 630 keys, 97591 bytes
+2023/07/31-00:19:14.436 58e7 Compacted 1@1 + 1@2 files => 97591 bytes
+2023/07/31-00:19:14.940 58e7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/31-00:19:14.940 58e7 Delete type=2 #5
+2023/07/31-00:19:14.940 58e7 Delete type=2 #8

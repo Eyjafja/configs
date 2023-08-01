@@ -1,0 +1,7 @@
+2023/06/08-18:49:31.508 16fe Reusing MANIFEST /home/Eyjafja/.config/thorium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/08-18:49:31.508 16fe Recovering log #3
+2023/06/08-18:49:31.509 16fe Reusing old log /home/Eyjafja/.config/thorium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
+2023/06/08-18:51:02.829 16ff Level-0 table #5: started
+2023/06/08-18:51:02.832 16ff Level-0 table #5: 3896 bytes OK
+2023/06/08-18:51:02.835 16ff Delete type=0 #3
+2023/06/08-18:51:02.835 16ff Manual compaction at level-0 from (begin) .. (end); will stop at (end)
