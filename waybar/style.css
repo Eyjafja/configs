@@ -1,73 +1,61 @@
+@import "mocha.css";
+
 * {
     border: none;
     border-radius: 0;
-    font-family: "JetbrainsMono Nerd Font";
+    font-family: "JetbrainsMono";
     font-size: 12px;
     min-height: 0;
 }
 
 window#waybar {
-    background: transparent;
-    color: #cba6f7;
+    background: @base;
+    color: @text;
 }
 
 #window {
-    font-weight: bold;
-    font-family: "JetbrainsMono";
 }
-/*
-#workspaces {
-    padding: 0 5px;
-}
-*/
 
 #workspaces button {
     padding: 0 0px;
-    background: transparent;
-    color: #cba6f7;
-    border-top: 2px solid transparent;
+	margin: 0 0px;
+    background: @base;
+    color: @text;
 }
+
+
 
 #workspaces button.focused {
-    color: #f5c2e7;
-    border-top: 2px solid #f5c2e7;
-}
-
-#mode {
-    background: #64727D;
-    border-bottom: 3px solid white;
-}
-
-#clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #mode, #language {
-    padding: 0 3px;
-    margin: 0 2px;
+    color: @text;
+	background: @crust;
+    border-bottom: 3px solid @pink;
 }
 
 #clock {
-    font-family: "JetbrainsMono Nerd Font";
-    font-weight: bold;
+	color: @pink;
 }
 
 #battery {
-    margin: 0px 6px 0px 0px
-}
-
-#battery icon {
-    color: #f38ba8;
+	color: @pink;
 }
 
 #battery.charging {
 }
 
+#custom-separator {
+	margin: 0 10px;
+	color: @overlay0;
+}
+
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: black;
+        background-color: @lavender;
+        color: @crust;
     }
 }
 
 #battery.warning:not(.charging) {
-    color: #cba6f7;
+    color: @text;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -75,34 +63,27 @@ window#waybar {
     animation-direction: alternate;
 }
 
-#cpu {
-}
-
 #language{
+	color: @pink;
 }
 
-
-#memory {
+#wireplumber{
+	color: @pink;
 }
 
-#network {
-    margin: 0 4px 0 2px;
-}
-
-#network.disconnected {
-    background: #f53c3c;
-}
-
-#pulseaudio {
-}
-
-#pulseaudio.muted {
-}
-
-#custom-spotify {
-    color: rgb(102, 220, 105);
+#wireplumber.muted{
+	color: @text;
 }
 
 #tray {
+}
+
+tooltip {
+    background: @surface0;
+    border-radius: 4px;
+}
+
+tooltip label {
+    color: @pink;
 }
 

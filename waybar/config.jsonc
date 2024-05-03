@@ -1,0 +1,55 @@
+{
+	"height": 24,
+
+	"modules-left": ["sway/workspaces", "custom/separator", "sway/window"],
+	"modules-right": ["wireplumber", "custom/separator", "sway/language", "custom/separator", "battery", "custom/separator", "clock", "custom/separator", "tray"],
+
+	"tray": {
+		"spacing": 10,
+		"tooltip" : false
+	},
+
+	"sway/window": {
+		"tooltip" : false
+	},
+
+	"clock": {
+		"format-alt": "{:%Y-%m-%d}",
+		"tooltip" : false
+	},
+
+	"battery": {
+		"bat": "BAT1",
+		"states": {
+		    "critical": 30,
+		    "warning": 15
+		},
+		"format": "BAT <span color=\"#a6e3a1\">{capacity}%</span>",
+		"tooltip" : false
+	},
+
+	"wireplumber": {
+        "format": "VOL <span color=\"#a6e3a1\">{volume}%</span>",
+        "format-muted": "muted",
+        "scroll-step": 5.0,
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+		"tooltip" : false
+    },
+
+	"sway/language": {
+		"format": "{short} {flag}",
+		"on-click": "swaymsg input type:keyboard xkb_switch_layout next",
+		"tooltip" : false
+	},
+	
+	"sway/window": {
+		"format": "{app_id}",
+		"tooltip" : false
+	},
+
+	"custom/separator": {
+		"format": "|",
+		"interval": "once",
+		"tooltip" : false
+	}
+}
