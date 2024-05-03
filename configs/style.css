@@ -1,0 +1,89 @@
+@import "mocha.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetbrainsMono";
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @base;
+    color: @text;
+}
+
+#window {
+}
+
+#workspaces button {
+    padding: 0 0px;
+	margin: 0 0px;
+    background: @base;
+    color: @text;
+}
+
+
+
+#workspaces button.focused {
+    color: @text;
+	background: @crust;
+    border-bottom: 3px solid @pink;
+}
+
+#clock {
+	color: @pink;
+}
+
+#battery {
+	color: @pink;
+}
+
+#battery.charging {
+}
+
+#custom-separator {
+	margin: 0 10px;
+	color: @overlay0;
+}
+
+@keyframes blink {
+    to {
+        background-color: @lavender;
+        color: @crust;
+    }
+}
+
+#battery.warning:not(.charging) {
+    color: @text;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#language{
+	color: @pink;
+}
+
+#wireplumber{
+	color: @pink;
+}
+
+#wireplumber.muted{
+	color: @text;
+}
+
+#tray {
+}
+
+tooltip {
+    background: @surface0;
+    border-radius: 4px;
+}
+
+tooltip label {
+    color: @pink;
+}
+
